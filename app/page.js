@@ -27,18 +27,13 @@ export default function Home() {
           </a>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+            <h3 class="mx-auto my-0 text-uppercase greetfont" id="greeting-container"></h3>
+            <h1 class="mx-auto my-0 text-uppercase">Moshood Saka</h1>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5"> Check my <a href="#" target="_blank">Resume.</a> :))</h2>
+        </div>            
+    </div>
       <div className={styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
