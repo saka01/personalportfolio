@@ -1,7 +1,7 @@
 // "use client";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
-function randomGreeting() {
+function RandomGreeting() {
   const GREET_TIME = 600;
   const greetings = [
     "Hello!",
@@ -25,4 +25,4 @@ function randomGreeting() {
   return <h3>{greetings[currentIndex]}</h3>;
 }
 
-export default randomGreeting;
+export default RandomGreeting;
