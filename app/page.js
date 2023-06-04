@@ -3,7 +3,7 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <section>
     
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
@@ -21,6 +21,6 @@ export default function Home() {
             With ❤️ By 1000K
           </a>
         </div>
-    </main>
+    </section>
   )
 }
