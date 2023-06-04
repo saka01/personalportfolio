@@ -2,7 +2,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import randomGreeting from "@/components/helper";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
