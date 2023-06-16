@@ -11,16 +11,13 @@ export default function Home() {
     <section>
       <div style={{ textAlign: "center", padding: "40px 0" }}>
         <p style={{ fontSize: "30px" }}>👋🏾</p>
-        <p style={{ fontSize: "24px" }}>Hi, I'm Moshood!</p>
+        <p style={{ fontSize: "24px" }}>Hi, I&apos;m Moshood!</p>
         <br></br>
         <h2 style={{ fontSize: "20px", color: "#888" }}>
-          I'm in the process of building a new portfolio. In the meantime, you
-          can view my previous portfolio
+          I&apos;m in the process of building a new portfolio. In the meantime,
+          you can view my previous portfolio
         </h2>
-        <a
-          href="http://www.moshoodsaka.appspot.com"
-          style={lol}
-        >
+        <a href="https://www.moshoodsaka.appspot.com" style={lol}>
           Here
         </a>
       </div>
