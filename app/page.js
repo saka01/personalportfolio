@@ -13,8 +13,10 @@ export default function Home() {
         <p style={{ fontSize: "30px" }}>👋🏾</p>
         <h2 style={{ fontSize: "24px" }}>Hi, I&apos;m Moshood!</h2>
         <p style={{ fontSize: "20px", color: "#fff" }}>
-          I&apos;m in the process of building a new portfolio. In the meantime,
-          you can view my previous portfolio
+          I&apos;m in the process of building a new portfolio
+        </p>
+        <p style={{ fontSize: "20px", color: "#fff" }}>
+          In the meantime, you can view my previous portfolio
         </p>
         <a href="http://www.moshoodsaka.appspot.com" style={lol}>
           Here
