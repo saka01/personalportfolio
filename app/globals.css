@@ -94,7 +94,7 @@ body {
     )
     rgb(var(--background-start-rgb));
     background: url(../public/images/mainbg.png);
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 a {

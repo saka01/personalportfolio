@@ -12,12 +12,11 @@ export default function Home() {
       <div style={{ textAlign: "center", padding: "40px 0" }}>
         <p style={{ fontSize: "30px" }}>👋🏾</p>
         <p style={{ fontSize: "24px" }}>Hi, I&apos;m Moshood!</p>
-        <br></br>
-        <h2 style={{ fontSize: "20px", color: "#888" }}>
+        <h2 style={{ fontSize: "20px", color: "#999" }}>
           I&apos;m in the process of building a new portfolio. In the meantime,
           you can view my previous portfolio
         </h2>
-        <a href="https://www.moshoodsaka.appspot.com" style={lol}>
+        <a href="http://www.moshoodsaka.appspot.com" style={lol}>
           Here
         </a>
       </div>
@@ -34,4 +33,5 @@ const lol = {
     backgroundColor: "grey",
     textDecoration: "none",
     borderRadius: "25px",
+    marginTop: "25px",
   };
