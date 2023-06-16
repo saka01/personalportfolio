@@ -12,11 +12,11 @@ export default function Home() {
       <div style={{ textAlign: "center", padding: "40px 0" }}>
         <p style={{ fontSize: "30px" }}>👋🏾</p>
         <h2 style={{ fontSize: "24px" }}>Hi, I&apos;m Moshood!</h2>
-        <p style={{ fontSize: "20px", color: "#fff" }}>
+        <p style={{ fontSize: "14px", color: "#fff" }}>
           I&apos;m in the process of building a new portfolio
         </p>
-        <p style={{ fontSize: "20px", color: "#fff" }}>
-          In the meantime, you can view my previous portfolio
+        <p style={{ fontSize: "13px", color: "#fff" }}>
+          In the meantime, you can view my previous version
         </p>
         <a href="http://www.moshoodsaka.appspot.com" style={lol}>
           Here
