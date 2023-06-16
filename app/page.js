@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <section>
       <div style={{ textAlign: "center", padding: "40px 0" }}>
-        <p style={{ fontSize: "30px" }}>👋🏾</p>
-        <h2 style={{ fontSize: "24px" }}>Hi, I&apos;m Moshood!</h2>
+        <p style={{ fontSize: "60px" }}>👋🏾</p>
+        <h2 style={{ fontSize: "26px" }}>Hi, I&apos;m Moshood!</h2>
         <p style={{ fontSize: "14px", color: "#fff" }}>
           I&apos;m in the process of building a new portfolio
         </p>
