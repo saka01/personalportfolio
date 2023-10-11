@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer style={footerStyle}>
-      <p>1000K.</p>
+      <p>1000K._</p>
     </footer>
   );
 };

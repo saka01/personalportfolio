@@ -1,40 +1,31 @@
 import React from "react";
-import Link from "next/link";
+import "public/NavComponent.css";
 
-const styles = {
-  navbar: {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-around",
-    alignItems: "center",
-    position: "fixed",
-    height: "50%",
-    width: "200px",
-    padding: "20px 0",
-    background: "transparent",
-    color: "#fff",
-    zIndex: "100",
-  },
-  menuOption: {
-    cursor: "pointer",
-    padding: "10px 0",
-  },
-};
-
-const NavBar = () => {
+const Navbar = () => {
   return (
-    <div style={styles.navbar}>
-      <Link href="/resume" style={styles.menuOption}>
-        Resume
-      </Link>
-      <Link href="/projects" style={styles.menuOption}>
-        02 ----- Projects
-      </Link>
-      <Link href="/aboutme" style={styles.menuOption}>
-        About
-      </Link>
-    </div>
+    <nav className="navbar">
+      <div className="navbar-container">
+        <div className="logo-container">
+          <a href="#home" className="logo">
+            1000K._
+          </a>
+        </div>
+        <div className="menu-container">
+          <ul className="menu">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 };
 
-export default NavBar;
+export default Navbar;
