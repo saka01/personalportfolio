@@ -1,5 +1,5 @@
 import React from "react";
-import DevName from "./devName";
+import DevName from "./DevName";
 
 const Footer = () => {
   return (
