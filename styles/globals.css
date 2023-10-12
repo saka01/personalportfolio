@@ -22,6 +22,8 @@ body {
   color: black; /* Changed from var(--foreground-rgb) as the variable was removed */
   background: url(../public/images/mainbg.png);
   font-family: var(--font-poppins), var(--font-system-ui), var(--font-mono);
+  padding: 30px 25px 0px 30px; /* Top, right, bottom, left padding respectively */
+
 }
 
 a {

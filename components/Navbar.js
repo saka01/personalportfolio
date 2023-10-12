@@ -1,26 +1,34 @@
 import React from "react";
 import DevName from "./devName";
+import styles from 'styles/Navbar.module.css';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
-      <div>
-        <div>
-          <DevName />
-        </div>
-        <div>
-          <ul>
-            <li>
-              <a href="/resume">Resume</a>
-            </li>
-            <li>
-              <a href="/projects">Projects</a>
-            </li>
-            <li>
-              <a href="/about">About</a>
-            </li>
-          </ul>
-        </div>
+    <nav className={styles.navbar}>
+      <div className="logo">
+        <DevName />
       </div>
+      <div className={styles.menu}>
+        <ul className={styles.ulStyle}>
+          <li className={styles.menuItem}>
+            <Link href="/resume" legacyBehavior>
+              <a className={styles.menuLink}>Resume</a>
+            </Link>
+          </li>
+          <li className={styles.menuItem}>
+            <Link href="/projects" legacyBehavior>
+              <a className={styles.menuLink}>Projects</a>
+            </Link>
+          </li>
+          <li className={styles.menuItem}>
+            <Link href="/about" legacyBehavior>
+              <a className={styles.menuLink}>About</a>
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 };
 

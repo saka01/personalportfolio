@@ -1,0 +1,29 @@
+/* Navbar.module.css */
+/* ...other styles... */
+
+.menu {
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ulStyle {
+  list-style-type: none;
+  display: flex;  /* Display the list items horizontally */
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem {
+  margin: 0 15px;
+  text-align: center;  /* Center-align the text within each menu item */
+}
+
+.menuLink {
+  text-decoration: none;
+  color: white;
+}
