@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 
 const LogoText = styled.span`
@@ -7,7 +8,6 @@ const LogoText = styled.span`
 `;
 
 const DevName = () => {
-
   return <LogoText href="/">1000K . _</LogoText>;
 };
 

@@ -21,6 +21,7 @@
 .menuItem {
   margin: 0 15px;
   text-align: center;  /* Center-align the text within each menu item */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .menuLink {
