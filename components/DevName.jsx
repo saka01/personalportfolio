@@ -11,7 +11,7 @@ const LogoText = styled.a`
 
 const DevName = () => {
   return (
-    <Link href="/" legacyBehaviour>
+    <Link href="/" legacyBehaviour legacyBehavior>
       <LogoText>1000K . _</LogoText>
     </Link>
   );
