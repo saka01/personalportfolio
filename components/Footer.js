@@ -13,11 +13,9 @@ const footerStyle = {
   position: "absolute",
   bottom: 0,
   width: "100%",
+  paddingBottom: "10px",
   height: "2.5rem" /* Footer height */,
-  //   background: "#000000",
-  padding: "10px",
   textAlign: "center",
-  fontFamily: "system-ui, sans-serif",
 };
 
 export default Footer;

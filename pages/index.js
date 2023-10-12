@@ -8,18 +8,19 @@ export default function Home() {
   return (
     <section>
       <div style={{ textAlign: "center", padding: "40px 0" }}>
-        <RandomGreeting />
-
         <Image
           id="profile_pic"
           src="/images/profile_pic.jpg"
           width={150}
           height={150}
-          style={{ borderRadius: "50%" }}
+          style={{
+            borderRadius: "50%",
+            border: "3px solid darkgrey",
+          }}
         />
         <h1 style={{ fontSize: "56px" }}>MOSHOOD SAKA</h1>
         <h2 style={{ fontSize: "26px" }}>
-          SOFTWARE ENGINEER, FULL-STACK DEVELOPER
+          SOFTWARE ENGINEER | FULL-STACK DEVELOPER
         </h2>
         <p style={{ fontSize: "13px", color: "#fff" }}>
           In the meantime, you can view my previous version
@@ -28,7 +29,6 @@ export default function Home() {
           Here
         </a>
       </div>
-      <Footer />
     </section>
   );
 }

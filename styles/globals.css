@@ -1,9 +1,11 @@
 :root {
-  --font-poppins: 'Poppins', sans-serif;
-  --font-system-ui: system-ui, sans-serif;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-poppins: "Poppins", sans-serif;
+  --font-system-ui: "Space Grotesk Bold", -apple-system, "system-ui", Roboto,
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 }
 
 * {
@@ -23,7 +25,12 @@ body {
   background: url(../public/images/mainbg.png);
   font-family: var(--font-poppins), var(--font-system-ui), var(--font-mono);
   padding: 30px 25px 0px 30px; /* Top, right, bottom, left padding respectively */
+}
 
+.devName {
+  font-family: system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
 }
 
 a {
