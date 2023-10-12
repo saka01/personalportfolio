@@ -1,9 +1,10 @@
 import React from "react";
+import DevName from "./devName";
 
 const Footer = () => {
   return (
     <footer style={footerStyle}>
-      <p>1000K._</p>
+      <DevName />
     </footer>
   );
 };
@@ -16,7 +17,7 @@ const footerStyle = {
   //   background: "#000000",
   padding: "10px",
   textAlign: "center",
+  fontFamily: "system-ui, sans-serif",
 };
-
 
 export default Footer;

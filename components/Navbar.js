@@ -1,30 +1,26 @@
 import React from "react";
-import "public/NavComponent.css";
+import DevName from "./devName";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
-        <div className="logo-container">
-          <a href="#home" className="logo">
-            1000K._
-          </a>
+      <div>
+        <div>
+          <DevName />
         </div>
-        <div className="menu-container">
-          <ul className="menu">
+        <div>
+          <ul>
             <li>
-              <a href="#about">About</a>
+              <a href="/resume">Resume</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="/projects">Projects</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="/about">About</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
   );
 };
 
