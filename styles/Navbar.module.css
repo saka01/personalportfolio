@@ -1,13 +1,21 @@
 /* Navbar.module.css */
 /* ...other styles... */
 
+.navbar{
+    display: flex;
+  align-items: center;
+}
+.logo{
+    justify-content:flex-start;
+
+}
 .menu {
   margin: 0;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50px;
   display: flex;
-  justify-content: center;
+  justify-content:flex-end;
   align-items: center;
 }
 
@@ -21,7 +29,7 @@
 .menuItem {
   margin: 0 15px;
   text-align: center;  /* Center-align the text within each menu item */
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'JetBrains mono';
 }
 
 .menuLink {

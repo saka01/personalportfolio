@@ -16,6 +16,7 @@ const footerStyle = {
   paddingBottom: "10px",
   height: "2.5rem" /* Footer height */,
   textAlign: "center",
+  fontFamily: "JetBrains mono"
 };
 
 export default Footer;

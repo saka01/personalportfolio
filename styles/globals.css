@@ -28,7 +28,7 @@ body {
 }
 
 .devName {
-  font-family: system-ui, sans-serif;
+  font-family: "JetBrains mono";
   font-weight: 700;
   font-size: 22px;
 }
