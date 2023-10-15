@@ -19,6 +19,7 @@ export default function Home() {
           }}
         />
         <h1 style={{ fontSize: "56px" }}>MOSHOOD SAKA</h1>
+          <br />
         <h2 style={{ fontSize: "26px" }}>
           SOFTWARE ENGINEER | FULL-STACK DEVELOPER
         </h2>
