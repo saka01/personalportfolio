@@ -23,12 +23,6 @@ export default function Home() {
         <h2 style={{ fontSize: "26px" }}>
           SOFTWARE ENGINEER | FULL-STACK DEVELOPER
         </h2>
-        <p style={{ fontSize: "13px", color: "#fff" }}>
-          In the meantime, you can view my previous version. Its  really  old lol
-        </p>
-        <a href="http://www.moshoodsaka.appspot.com" style={lol}>
-          Here
-        </a>
       </div>
     </section>
   );
