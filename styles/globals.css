@@ -47,3 +47,23 @@ a {
     color: white; /* Changed from var(--foreground-rgb) as the variable was removed */
   }
 }
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.4); /* White background with 70% opacity */
+  border-radius: 10px; /* Optional, to round the corners */
+  padding: 10px;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
