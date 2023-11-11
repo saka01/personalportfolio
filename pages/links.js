@@ -1,6 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import Marquee from "react-fast-marquee";
 import Socials from "../components/Socials";
+import Footer from "@/components/Footer";
 
 const Links = () => {
   const linksData = [
@@ -35,15 +37,22 @@ const Links = () => {
       </div>
 
       <div className="linktree-socials">
-        <Socials size={200} />
+        <Socials size={100} />
       </div>
-
+      <br />
+      <br />
       <div className="links">
         {linksData.map((link, index) => (
-          <span key={index} href={link.link} className="link">
-            {link.title}
-          </span>
+          <div className="linkss">
+            <Link key={index} href={link.link} legacyBehavior>
+              <span key={index} href={link.link} className="link">
+                {link.title}
+              </span>
+            </Link>
+          </div>
         ))}
+
+       <Footer/>
       </div>
     </div>
   );
