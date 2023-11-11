@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
+import Socials from "../components/Socials";
 
 const Links = () => {
   const linksData = [
@@ -10,7 +11,13 @@ const Links = () => {
   return (
     <div className="linktree">
       <div className="marqueetext">
-        <Marquee> LINKS LINKS LINKS LINKS LINKS LINKS </Marquee>
+        <Marquee>
+          L I N K S &nbsp; L I N K S &nbsp; L I N K S &nbsp; L I N K S &nbsp; L
+          I N K S &nbsp; L I N K S &nbsp; L I N K S &nbsp; L I N K S &nbsp; L I
+          N K S &nbsp; L I N K S &nbsp; L I N K S &nbsp; L I N K S &nbsp; L I N
+          K S &nbsp; L I N K S &nbsp; L I N K S &nbsp; L I N K S &nbsp; L I N K
+          S &nbsp;
+        </Marquee>
       </div>
 
       <div className="linktree-profile">
@@ -26,12 +33,16 @@ const Links = () => {
         />
         <h4 style={{ fontSize: "20px" }}>Computer Science Student @ UW</h4>
       </div>
+      
+      <div className="linktree-socials">
+        <Socials size={200} />
+      </div>
 
       <div className="links">
         {linksData.map((link, index) => (
-          <h3 key={index} href={link.link} className="link">
+          <span key={index} href={link.link} className="link">
             {link.title}
-          </h3>
+          </span>
         ))}
       </div>
     </div>
