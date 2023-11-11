@@ -33,7 +33,7 @@ const Links = () => {
         />
         <h4 style={{ fontSize: "20px" }}>Computer Science Student @ UW</h4>
       </div>
-      
+
       <div className="linktree-socials">
         <Socials size={200} />
       </div>
@@ -49,4 +49,5 @@ const Links = () => {
   );
 };
 
+Links.getLayout = (page) => page;
 export default Links;

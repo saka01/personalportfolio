@@ -1,17 +1,17 @@
 import "styles/globals.css";
 import RootLayout from "./layout";
-import Router, { useRouter } from "next/router";
+import { useRouter } from "next/router";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
-  if (router.asPath == "/links") {
-    return <Component {...pageProps} />;
-  }
-  return (
-    <RootLayout>
+  const getLayout =
+    Component.getLayout || ((page) => <RootLayout>{page}</RootLayout>);
+
+  return getLayout(
+    // <RootLayout>
       <Component {...pageProps} />
-    </RootLayout>
+    // {/* </RootLayout> */}
   );
 }
 
