@@ -24,7 +24,7 @@ body {
   color: black; /* Changed from var(--foreground-rgb) as the variable was removed */
   background: url(../public/images/mainbg.png);
   font-family: var(--font-poppins), var(--font-system-ui), var(--font-mono);
-  padding: 30px 25px 0px 30px; /* Top, right, bottom, left padding respectively */
+  /* padding: 30px 25px 0px 30px; Top, right, bottom, left padding respectively */
 }
 
 .devName {
@@ -53,28 +53,11 @@ a {
   justify-content: space-around;
   width: 400px;
   margin: 0 auto;
-  padding: 10px;
-}
-#profile_text_container{
-}
-.social-icons {
-  display: flex;
-  justify-content: space-around;
-  width: 400px;
-  margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.4); /* White background with 70% opacity */
   border-radius: 10px; /* Optional, to round the corners */
   padding: 10px;
 }
-.navwrapper {
-  display: flex;
-  width: fit-content;
-  margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.4); /* White background with 70% opacity */
-  border-radius: 10px; /* Optional, to round the corners */
-  padding: 10px;
-  
-}
+
 .icon-container {
   text-align: center;
 }
@@ -83,4 +66,38 @@ a {
   width: 50px;
   height: 50px;
   margin-bottom: 5px;
+}
+
+.marqueetext{
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-size: 24px;
+  padding: 20%, 40%;
+  padding: 30px 0px 30px 0px; /*Top, right, bottom, left padding respectively*/
+
+}
+
+.linktree{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.4); /* White background with 70% opacity */
+  border-radius: 20px; /* Optional, to round the corners */
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.linktree-profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
 }
