@@ -26,6 +26,7 @@ const Links = () => {
         <Image
           id="profile_pic"
           src="/images/profile_pic.jpg"
+          alt="Moshood Saka Profile pic"
           width={100}
           height={100}
           style={{
@@ -52,7 +53,7 @@ const Links = () => {
           </div>
         ))}
 
-       <Footer/>
+        <Footer />
       </div>
     </div>
   );

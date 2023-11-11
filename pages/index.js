@@ -10,6 +10,7 @@ export default function Home() {
         <Image
           id="profile_pic"
           src="/images/profile_pic.jpg"
+          alt="Moshood Saka Profile pic"
           width={150}
           height={150}
           style={{
