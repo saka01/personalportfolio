@@ -44,7 +44,7 @@ const Links = () => {
       <br />
       <div className="links">
         {linksData.map((link, index) => (
-          <div className="linkss">
+          <div key={index} className="linkss">
             <Link key={index} href={link.link} legacyBehavior>
               <span key={index} href={link.link} className="link">
                 {link.title}
