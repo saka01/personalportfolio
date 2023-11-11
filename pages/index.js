@@ -23,7 +23,7 @@ export default function Home() {
         </h2>
         <br />
         <br />
-        <div class="social-media-icons">
+        <div class="social-icons">
           <div class="icon-container">
             <a href="https://www.linkedin.com/in/sakam" target="_blank">
               <Image
