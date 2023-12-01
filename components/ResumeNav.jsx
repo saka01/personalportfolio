@@ -8,8 +8,8 @@ const ResumeNav = () => {
           id="profile_pic"
           src="/images/profile_pic.jpg"
           alt="Moshood Saka Profile pic"
-          width={50}
-          height={50}
+          width={70}
+          height={70}
           style={{
             borderRadius: "50%",
             border: "0.5px solid darkgrey",

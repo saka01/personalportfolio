@@ -1,8 +1,7 @@
 const Skills = () => {  return (
   <div>
-    <p>EDUCATION</p>
-    <p>Bachelor of Computer Science</p>
-    <p>University of Windsor</p>
+    <p>Skills</p>
+    <p>Web design, web development, software development, devops</p>
   </div>
 );
 };

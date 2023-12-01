@@ -150,7 +150,16 @@ a {
   padding-right: 5em;
 
 }
+.resumewrapper{
+  display: flex;
+  flex-direction: row;
+  margin: 2em;
 
+}
+.otherexperience{
+display: flex;
+flex-direction: column;
+}
 @media screen and (max-width: 1240px) {
    .resumenavwrapper{
   display: flex;
@@ -189,4 +198,17 @@ a {
   padding-right: 0em;
 
 }
+
+.resumewrapper{
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+
 }
+.otherexperience{
+display: flex;
+flex-direction: column;
+}
+}
+
+

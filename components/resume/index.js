@@ -7,11 +7,11 @@ import Skills from "./Skills";
 const Resumetemplate = () => {
 return (
   <div>
-    <div class="resumewrapper">
-      <div class="experience">
+    <div className="resumewrapper">
+      <div className="experience">
         <Experience />
       </div>
-      <div class="otherexperience">
+      <div className="otherexperience">
         <Summary />
         <Education />
         <Techstack />
@@ -21,5 +21,5 @@ return (
   </div>
 );
 }
-Resumetemplate.getLayout = (page) => page;
+// Resumetemplate.getLayout = (page) => page;
 export default Resumetemplate;
