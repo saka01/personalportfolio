@@ -6,7 +6,12 @@ import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
     <section>
-      <div style={{ textAlign: "center", padding: "40px 0" }}>
+      <div
+        style={{
+          textAlign: "center",
+          padding: "40px 0",
+          }}
+      >
         <Image
           id="profile_pic"
           src="/images/profile_pic.jpg"
@@ -19,9 +24,7 @@ export default function Home() {
           }}
         />
         <h1 style={{ fontSize: "56px" }}>MOSHOOD SAKA</h1>
-        <h2 style={{ fontSize: "26px" }}>
-          SOFTWARE ENGINEER
-        </h2>
+        <h2 style={{ fontSize: "26px" }}>SOFTWARE ENGINEER</h2>
         <br />
         <br />
         <div class="social-media-icons">

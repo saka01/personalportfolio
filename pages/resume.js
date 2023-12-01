@@ -9,5 +9,6 @@ const Resume = () => {
         </div>
     );
 }
+Resume.getLayout = (page) => page;
 
 export default Resume;

@@ -1,0 +1,71 @@
+
+ 
+.projectContainer {
+    margin: 2em;
+}
+.projectList {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if they exceed the container width */
+  justify-content: space-evenly; /* Horizontal alignment */
+  align-items: center; /* Vertical alignment */
+}
+
+.projectCard {
+  border: 1.5px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+  /* background-color: #121312; */
+  transition: border-color 0.3s ease; /* Smooth transition for the border color */
+  margin: 10px;
+  width: 20em;
+  height: 20em;
+  /* min-width: 300px;
+  min-height: 200px; */
+  position: relative;
+}
+
+.projectCard:hover {
+  border-color: #ffffffff; /* Highlight color on hover (adjust the opacity as needed) */
+  background-color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  color: #121312;
+
+}
+.projectCard:hover button {
+  display: block;
+
+}
+.cardLink {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 1240px) {
+     /* body {
+    background-color: lightblue;
+  } */
+  .projectCard {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    /* background-color: #121312; */
+    transition: border-color 0.3s ease; /* Smooth transition for the border color */
+    margin: 10px;
+    width: 30em;
+    height: auto;
+  }
+}
+
+.projectCard button {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  left: 35%;
+  margin-bottom: 10em;
+  padding: 10px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}

@@ -4,7 +4,7 @@ import Link from "next/link";
 const DevName = () => {
   return (
     <Link href="/" legacyBehaviour legacyBehavior>
-      <a className="devName">1000K._</a>
+      <a className="devName">MS._</a>
     </Link>
   );
 };

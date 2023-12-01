@@ -2,25 +2,25 @@ import Image from "next/image";
 
 const ResumeNav = () => {
   return (
-    <div class="navwrapper">
+    <div class="resumenavwrapper">
       <div class="profile_container">
         <Image
           id="profile_pic"
           src="/images/profile_pic.jpg"
           alt="Moshood Saka Profile pic"
-          width={150}
-          height={150}
+          width={50}
+          height={50}
           style={{
             borderRadius: "50%",
-            border: "3px solid darkgrey",
+            border: "0.5px solid darkgrey",
           }}
         />
-        <div id="profile_text_container">
-          <h1>Moshood Saka</h1>
-          <h2>Software Engineer</h2>
+        <div className="profile_text_container">
+          <h2>Moshood Saka</h2>
+          <p>Software Engineer</p>
         </div>
       </div>
-      <div class="social-media-icons">
+      <div class="resume-social-media-icons">
         <div class="icon-container">
           <a href="https://www.linkedin.com/in/sakam" target="_blank">
             <Image
