@@ -31,13 +31,6 @@ const Projectss = () => {
   return (
     <div>
       <h1>Project Page</h1>
-      <div>
-        {projectsData.map((proj, index) => (
-          <div key={index}>
-            <ProjectCard />
-          </div>
-        ))}
-      </div>
     </div>
   );
 };
