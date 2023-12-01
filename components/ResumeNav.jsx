@@ -1,6 +1,16 @@
 import Image from "next/image";
+import Resume from "/public/files/myresume.pdf";
 
 const ResumeNav = () => {
+  const handleDownload = () => {
+    // Replace "path/to/your/resume.pdf" with the actual path to your resume file
+    const resumePath = "/files/myresume.pdf";
+    const link = document.createElement("a");
+    link.href = resumePath;
+    link.download = "Moshood_Saka_Resume.pdf"; // Change the downloaded file name as needed
+    link.click();
+  };
+
   return (
     <div class="resumenavwrapper">
       <div class="profile_container">
@@ -70,6 +80,20 @@ const ResumeNav = () => {
           <p>Email</p>
         </div>
       </div>
+      <button
+        style={{
+          borderRadius: "30px",
+          backgroundColor: "white",
+          color: "black",
+          padding: "1em",
+          paddingRight: "1em",
+          paddingLeft: "1em",
+          minHeight: "5em",
+        }}
+        onClick={handleDownload}
+      >
+        Download Resume
+      </button>
     </div>
   );
 };
