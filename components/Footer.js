@@ -20,7 +20,7 @@ const footerStyle = {
   textAlign: "center",
   fontFamily: "JetBrains mono",
   whiteSpace: "pre-line",
-  backgroundColor: "rgba(128, 128, 128, 0.463)",
+  backgroundColor: "rgba(0, 0, 0, 0.463)",
   fontFamily: "JetBrains mono",
   fontWeight: 400,
   fontSize: "11px",

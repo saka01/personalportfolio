@@ -1,7 +1,7 @@
 const Experience = () => {
   const Edata = [
     {
-      companyName: "Pivot Integrated Technologies",
+      companyName: "Pivot Integrated",
       workTime: "Remote | Apr '23 ➔ Present",
       workTitle: "Software Engineer (Contract)",
       workNotes: [
