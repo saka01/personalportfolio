@@ -3,7 +3,7 @@ import Resumetemplate from "../components/resume/index";
 
 const Resume = () => {
     return (
-        <div>
+        <div className="resumetemplate">
             <ResumeNav />
             <Resumetemplate />
         </div>

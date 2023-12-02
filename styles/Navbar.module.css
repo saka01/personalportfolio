@@ -1,50 +1,51 @@
 /* Navbar.module.css */
 /* ...other styles... */
 
-
-
 .menu {
   margin: 0;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50px;
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .ulStyle {
   list-style-type: none;
-  display: flex;  /* Display the list items horizontally */
+  display: flex; /* Display the list items horizontally */
   padding: 0;
   margin: 0;
 }
 
 .menuItem {
   margin: 0 15px;
-  text-align: center;  /* Center-align the text within each menu item */
-  font-family: 'JetBrains mono';
+  text-align: center; /* Center-align the text within each menu item */
+  font-family: "JetBrains mono";
 }
 
 .menuLink {
   text-decoration: none;
   color: white;
 }
-.navbar{
+.navbar {
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   margin-top: 1em;
+  gap: 1em;
 }
-.logo{
+.logo {
   color: aqua;
   font-family: "JetBrains mono";
   font-weight: 800;
   font-size: "29px";
   width: fit-content;
 }
+
+
 @media screen and (min-width: 1240px) {
- /* .navbar{
+  /* .navbar{
   display: flex;
   align-items: center;
   color: aqua;
@@ -57,4 +58,17 @@
     justify-content:flex-start;
 
 } */
+
+  .downloadresumebutton {
+    border-radius: "50px";
+    background-color: "white";
+    color: "black";
+    padding: "1em";
+    padding-right: "1em";
+    padding-left: "1em";
+    margin-left: "-100px";
+    height: "15em";
+    width: "15em";
+    border: "white";
+  }
 }

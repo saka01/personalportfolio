@@ -2,7 +2,7 @@ const Experience = () => {
   const Edata = [
     {
       companyName: "Pivot Integrated Technologies",
-      workTime: "Remote | (Apr 2023 - Present)",
+      workTime: "Remote | Apr '23 ➔ Present",
       workTitle: "Software Engineer (Contract)",
       workNotes: [
         "Worked independently to build websites for clients, ensuring a responsive design and optimized user experience.",
@@ -12,7 +12,7 @@ const Experience = () => {
     },
     {
       companyName: "Canvass AI",
-      workTime: "Toronto | (Jan 2023 - May 2023)",
+      workTime: "Toronto | Jan '23 ➔ May '23",
       workTitle: "Software Engineer Intern",
       workNotes: [
         "Collaborated with a cross-functional team to design, document, and develop features, increasing platform functionality by 10%. Enhanced UI by designing new React components and updating Redux logic.",
@@ -22,7 +22,7 @@ const Experience = () => {
     },
     {
       companyName: "SM Software Consulting",
-      workTime: "Toronto | (Jan 2023 - May 2023)",
+      workTime: "Toronto | Jan '23 ➔ May'23",
       workTitle: "Mobile Application Engineer Intern",
       workNotes: [
         "Transform an initial employment app concept into a cross-platform application, impacting the job search experience for a diverse user base of 1,000+ individuals.",
@@ -32,7 +32,7 @@ const Experience = () => {
     },
     {
       companyName: "Google",
-      workTime: "Remote | (Jan 2021 - May 2021)",
+      workTime: "Remote | Jan '21 ➔ May '21",
       workTitle: "Software Product Sprint Participant",
       workNotes: [
         "Accepted into the competitive program to learn from industry leaders in emerging technologies. Developed a web application that generates a resume based on the info provided with a team of 2.",
@@ -42,7 +42,7 @@ const Experience = () => {
     },
     {
       companyName: "Google",
-      workTime: "Remote | (Jan 2021 - May 2021)",
+      workTime: "Remote | Jan '21 ➔ May '21",
       workTitle: "Computer Science Summer Institute Participant",
       workNotes: [
         "Accepted into the competitive program to learn from industry leaders in emerging technologies. Developed a web application that generates a resume based on the info provided with a team of 2.",
