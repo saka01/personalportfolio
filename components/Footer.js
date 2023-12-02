@@ -4,7 +4,8 @@ import DevName from "./DevName";
 const Footer = () => {
   return (
     <footer style={footerStyle}>
-      <DevName />
+      <DevName text={`Designed & Built by Moshood Saka Using
+        [Javascript, React, Nextjs]`} />
     </footer>
   );
 };
@@ -14,9 +15,15 @@ const footerStyle = {
   bottom: 0,
   width: "100%",
   paddingBottom: "10px",
+  paddingTop: "5px",
   height: "2.5rem" /* Footer height */,
   textAlign: "center",
-  fontFamily: "JetBrains mono"
+  fontFamily: "JetBrains mono",
+  whiteSpace: "pre-line",
+  backgroundColor: "rgba(128, 128, 128, 0.463)",
+  fontFamily: "JetBrains mono",
+  fontWeight: 400,
+  fontSize: "11px",
 };
 
 export default Footer;

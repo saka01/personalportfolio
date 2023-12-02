@@ -1,19 +1,8 @@
 /* Navbar.module.css */
 /* ...other styles... */
 
-.navbar{
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap; /* Allow items to wrap to the next line if they exceed the container width */
-  /* justify-content: center; Horizontal alignment */
-  margin-top: 1em;
-  margin-left: 1em;
-  gap: 39em;
-}
-.logo{
-    justify-content:flex-start;
 
-}
+
 .menu {
   margin: 0;
   padding: 10px;
@@ -41,9 +30,23 @@
   text-decoration: none;
   color: white;
 }
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 1em;
+  color: aqua;
+}
+.logo{
+  display: flex;
 
-@media screen and (max-width: 1240px) {
- .navbar{
+    justify-content:flex-start;
+  align-items:flex-start;
+
+
+}
+@media screen and (min-width: 1240px) {
+ /* .navbar{
   display: flex;
   align-items: center;
   color: aqua;
@@ -55,5 +58,5 @@
 .logo{
     justify-content:flex-start;
 
-}
+} */
 }

@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className="logo">
-        <DevName />
+        <DevName text="MS._"/>
       </div>
       <div className={styles.menu}>
         <ul className={styles.ulStyle}>

@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 
-const DevName = () => {
+const DevName = ({text}) => {
   return (
     <Link href="/" legacyBehaviour legacyBehavior>
-      <a className="devName">MS._</a>
+      <a className="devName">{text}</a>
     </Link>
   );
 };
