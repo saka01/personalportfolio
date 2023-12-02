@@ -35,15 +35,13 @@
   align-items: center;
   justify-content: center; 
   margin-top: 1em;
-  color: aqua;
 }
 .logo{
-  display: flex;
-
-    justify-content:flex-start;
-  align-items:flex-start;
-
-
+  color: aqua;
+  font-family: "JetBrains mono";
+  font-weight: 800;
+  font-size: "29px";
+  width: fit-content;
 }
 @media screen and (min-width: 1240px) {
  /* .navbar{

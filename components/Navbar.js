@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
-      <div className="logo">
+      <div className={styles.logo}>
         <DevName text="MS._"/>
       </div>
       <div className={styles.menu}>
