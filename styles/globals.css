@@ -324,6 +324,14 @@ justify-content: space-between; /* Horizontal alignment */
 display: flex;
 flex-direction: column;
 }
+.experience {
+  border-radius: 30px; /* Optional, to round the corners */
+  background-color: white;
+  padding: 1em;
+  border: 5px solid rgba(128, 128, 128, 0.463);
+  margin-bottom: 1em;
+  width: 100%;
+}
 }
 
 
