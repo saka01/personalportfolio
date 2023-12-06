@@ -23,7 +23,7 @@ export default function Home() {
             border: "3px solid darkgrey",
           }}
         />
-        <h2 style={{ fontSize: "56px" }}>MOSHOOD SAKA</h2>
+        <h2 style={{ fontSize: "46px" }}>MOSHOOD SAKA</h2>
         <h3 style={{ fontSize: "26px" }}>SOFTWARE ENGINEER</h3>
         <br />
         <br />
