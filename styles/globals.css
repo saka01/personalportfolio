@@ -175,7 +175,9 @@ a {
 .resumewrapper{
   display: flex;
   flex-direction: row;
-  margin: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 5em;
   justify-content: center;
   align-items: center; /* Vertical alignment */
 }
@@ -183,7 +185,21 @@ a {
 .otherexperience{
 display: flex;
 flex-direction: column;
-justify-content: space-between;
+justify-content:space-around;
+  color: black;
+  margin: 0.5em;
+  height: 46.5em;
+
+}
+
+.otherexperience_style{
+  color: black;
+  border-radius: 30px; /* Optional, to round the corners */
+  background-color: white;
+  padding: 1em;
+  border: 5px solid rgba(128, 128, 128, 0.463);
+  margin-bottom: 0.5em;
+  height: inherit;
 }
 
 .experience_header {
@@ -195,7 +211,14 @@ justify-content: space-between; /* Horizontal alignment */
   font-size: 12px;
   font-weight: 600;
 }
-
+.otherexperience p {
+  font-size: 11px;
+  font-weight: 400;
+}
+.otherexperience h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
 .experience_card ul {
   font-size: 11px;
   font-weight: 400;
@@ -220,6 +243,8 @@ justify-content: space-between; /* Horizontal alignment */
   background-color: white;
   padding: 1em;
   border: 5px solid rgba(128, 128, 128, 0.463);
+  margin-bottom: 1em;
+  width: 60%;
 }
 .resumetemplate{
   display: flex;

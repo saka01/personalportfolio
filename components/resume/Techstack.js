@@ -1,7 +1,7 @@
 const Techstack = () => {
     return (
-      <div>
-        <p>Tools & Technologies</p>
+      <div className="otherexperience_style">
+        <h3>Tools & Technologies</h3>
         <p>React, Python, Javascript</p>
       </div>
     );
