@@ -123,9 +123,7 @@ a {
   align-items: center; /* Vertical alignment */
   justify-content: center; /* Horizontal alignment */
   margin-top: 1em;
-  padding: 1em;
-  /* margin-left: 20em;
-  margin-right: 20em; */
+  padding: 0.5em;
   border-radius: 30px;
   background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid white;
@@ -133,23 +131,25 @@ a {
 
 } 
 .downloadresumebutton {
-    border-radius: 50px;
+    border-radius: 30px;
     background-color: white;
     color: black;
-    padding: 1em;
+    padding: 0.5em;
     padding-right: 1em;
     padding-left: 1em;
-    margin-left: -80px;
-    height: 15em;
-    width: 15em;
+    margin-left: -90px;
+    margin-top: 10px;
+    height: 10em;
+    width: 10em;
     border: 5px solid lightgray;
     cursor: pointer;
+  box-shadow: 3px 2px 60px 2px rgba(0,0,0,0.7);
+
   }
 .resumenavmain{
   display: flex;
   align-items: center;
-  /* justify-content: flex-end; */
-  /* flex-direction: row; */
+
 }
 .resume-social-media-icons{
   display: flex;
