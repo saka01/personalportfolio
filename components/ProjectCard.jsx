@@ -12,7 +12,6 @@ const ProjectCard = ({ projectsData }) => {
       techStack: ["JS", "React"],
       pic: "/images/hotn.png",
       tag: "p",
-      year: 2021,
     },
   ];
 
@@ -39,7 +38,7 @@ const ProjectCard = ({ projectsData }) => {
               <p>{project.briefDesc}</p>
 
               <hr />
-              <p>{project.year}</p>
+              <p>{"lglg"}</p>
               <br />
               <p>{project.tag == "p" ? "Project" : "Client"}</p>
             </a>

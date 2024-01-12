@@ -10,7 +10,6 @@ const ProjectPage = () => {
       techStack: ["JS", "React"],
       pic: "/images/hotn.png",
       tag: "p",
-      year: 2022,
     },
     {
       pname: "BAT$ Finance",
@@ -18,7 +17,6 @@ const ProjectPage = () => {
       techStack: ["JS", "React"],
       pic: "/images/hotn.png",
       tag: "p",
-      year: 2022,
     },
     {
       pname: "Splixe",
