@@ -49,7 +49,7 @@ const Experience = () => {
                   <li key={index}>{note}</li>
                 ))}
               </ul>
-          <Skills skillsList={job.skillsList} />
+              <Skills skillsList={job.skillsList} />
             </div>
           </div>
         </div>

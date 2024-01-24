@@ -13,7 +13,7 @@ const ResumeNav = () => {
         <div className="profile_dashboard">
           <div class="profile_container">
             <div className="profile_text_container">
-              <div className={styles.logo}>
+              <div id="about" className={styles.logo}>
                 <DevName text="MS._" />
               </div>
               <h2>👋Moshood Saka</h2>
@@ -31,7 +31,7 @@ const ResumeNav = () => {
               }}
             />
           </div>
-          <div id="about" className="aboutme">
+          <div className="aboutme">
             <span>
               {`👋 Hello there! I'm a recent graduate from the University of Windsor,
           where I earned my Bachelor's in Computer Science. As a passionate
