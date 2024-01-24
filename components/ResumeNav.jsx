@@ -4,29 +4,10 @@ import DevName from "./DevName";
 import styles from "styles/Navbar.module.css";
 import Socials from "./Socials";
 import { useEffect } from "react";
+import TypeIt from "typeit-react";
 
 const ResumeNav = () => {
 
-  useEffect(() => {
-const aboutMe = document.querySelector(".aboutme");
-const handleMouseOver = () => {
-  aboutMe.style.color = "#d0d8c2"; // Yellow on hover
-};
- const handleMouseOut = () => {
-   setTimeout(() => {
-     aboutMe.style.color = "rgb(167, 167, 167)"; // Revert after 3s
-   }, 1500);
- };
-
- aboutMe.addEventListener("mouseover", handleMouseOver);
- aboutMe.addEventListener("mouseout", handleMouseOut);
-
- // Cleanup
- return () => {
-   aboutMe.removeEventListener("mouseover", handleMouseOver);
-   aboutMe.removeEventListener("mouseout", handleMouseOut);
- };
-  }, [])
 
   return (
     <div className="resumenavmain">
@@ -37,8 +18,12 @@ const handleMouseOver = () => {
               <div id="about" className={styles.logo}>
                 <DevName text="MS._" />
               </div>
+              {/* <TypeIt as={"h2"}>👋Moshood Saka</TypeIt> */}
               <h2>👋Moshood Saka</h2>
-              <p>Software Engineer @ Pivot Integrated Technologies 💻</p>
+              {/* <p>Software Engineer @ Pivot Integrated Technologies 💻</p> */}
+              <TypeIt as={"p"}>
+                Software Engineer @ Pivot Integrated Technologies 💻
+              </TypeIt>
             </div>
             <Image
               id="profile_pic"
@@ -67,7 +52,7 @@ const handleMouseOver = () => {
             <br />
             <br />
           </div>
-          <hr className="customHr"/>
+          <hr className="customHr" />
           <div className="home_info_block">
             <div className="based_in">
               <br />
