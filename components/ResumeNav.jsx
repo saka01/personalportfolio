@@ -66,6 +66,7 @@ const ResumeNav = () => {
               <p>Software Engineer [Contract] </p>
             </div>
             <div className="socials_block">
+              <br />
               <Socials size={100} />
             </div>
           </div>

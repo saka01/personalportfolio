@@ -14,7 +14,6 @@ return (
             width={size}
             height={size}
           />
-        <p>LinkedIn</p>
         </a>
       </div>
       <div class="icon-container">
@@ -26,7 +25,6 @@ return (
             width={size}
             height={size}
           />
-        <p>GitHub</p>
         </a>
       </div>
       <div class="icon-container">
@@ -38,7 +36,6 @@ return (
             width={size}
             height={size}
           />
-        <p>Discord</p>
         </a>
       </div>
       <div class="icon-container">
@@ -50,7 +47,6 @@ return (
             width={size}
             height={size}
           />
-        <p>Email</p>
         </a>
       </div>
     </div>
