@@ -40,8 +40,20 @@ background-color: #254f5d;
         
   font-family: var(--font-poppins), var(--font-system-ui), var(--font-mono); 
   /* padding: 30px 25px 0px 30px; Top, right, bottom, left padding respectively  */
+
   }
- 
+ ::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #254f5d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d0d8c2;
+  border-radius: 10px;
+}
   .home{
     display: flex;
   flex-direction: column;
