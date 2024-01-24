@@ -10,7 +10,7 @@ const Experience = () => {
         "Developed API end points in python micro-services using the fastAPI framework and improving API integration test coverage from 75% to 92%. Utilized panda’s library for data manipulation.",
         "Played an active role in the team's weekly release cycles, handling version tagging and pre-release validations, which led to a 5% decrease in deployment-related issues.",
       ],
-      skillsList: ["JavaScript", "NodeJS", "Python"],
+      skillsList: ["JavaScript", "ReactJS", "Python", "Docker", "Pandas", "Circle CI"],
     },
     {
       companyName: "SM Software Consulting",
@@ -21,7 +21,7 @@ const Experience = () => {
         "Produced 5 mobile screens using React-Native making navigation easier and structured the redux logic needed to have a seamless user experience.",
         "Backend built with NodeJS, executed a secure end-to-end user authentication flow using JWTokens, ensuring data security.",
       ],
-      skillsList: ["JavaScript", "NodeJS", "Python"],
+      skillsList: ["JavaScript", "React-Native", "MSSQL", "PostgreSQL"],
     },
     {
       companyName: "Google",
@@ -31,7 +31,7 @@ const Experience = () => {
         "Developed a resume builder as part of a team, utilizing HTML/CSS to build a resume template.",
         "Increased user management efficiency by 90%, by implementing Google OAUTH in Python and effectively utilized Google Cloud for data management and application deployment.",
       ],
-      skillsList: ["JavaScript", "NodeJS", "Python"],
+      skillsList: ["HTML/CSS","JavaScript", "Python", "Google Cloud"],
     },
   ];
 
