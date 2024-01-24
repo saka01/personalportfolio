@@ -20,7 +20,7 @@ const ProjectPage = () => {
     {
       pname: "Portfolio",
       briefDesc: "Personal Portfolio",
-      skillsList: ["TypeScript", "JavaScript",],
+      skillsList: ["TypeScript", "JavaScript"],
       pic: "/images/hotn.png",
     },
   ];
