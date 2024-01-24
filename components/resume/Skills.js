@@ -1,9 +1,13 @@
-const Skills = () => {  return (
-  <div className="otherexperience_style">
-    <h3>Skills</h3>
-    <p>Web design, web development, software development, devops</p>
-  </div>
-);
+const Skills = ({skillsList}) => {  
+  
+  
+  return (
+    <div className="otherexperience_style">
+      {skillsList.map((skill, index) => (
+        <span key={index} className="skills">{skill}</span>
+      ))}
+    </div>
+  );
 };
 
 export default Skills;

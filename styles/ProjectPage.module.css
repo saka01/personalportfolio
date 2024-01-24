@@ -1,7 +1,8 @@
 
  
 .projectContainer {
-    margin: 2em;
+    /* margin: 0em; */
+    /* margin-bottom: 5em; */
 }
 .projectList {
   display: flex;
@@ -11,14 +12,13 @@
 }
 
 .projectCard {
-  border: 1.5px solid grey;
-  border-radius: 20px;
+  /* border: 1.5px solid grey; */
+  border-radius: 40px;
   padding: 20px;
-  /* background-color: #121312; */
-  transition: border-color 0.3s ease; /* Smooth transition for the border color */
+  background-color: #aaa27c4c;
   margin: 10px;
-  width: 20em;
-  height: 20em;
+  width: 30em;
+  height: 15em;
   /* min-width: 300px;
   min-height: 200px; */
   position: relative;

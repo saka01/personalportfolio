@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const Links = () => {
   const linksData = [
     { title: "ADaPT for Black Youth", link: "https://www.adaptbyap.org" },
-    { title: "Portfolio", link: "https://www.moshoodsaka.com" },
+    // { title: "Portfolio", link: "https://www.moshoodsaka.com" },
   ];
 
   return (
@@ -23,7 +23,7 @@ const Links = () => {
       </div>
 
       <div className="linktree-profile">
-        <Image
+        {/* <Image
           id="profile_pic"
           src="/images/profile_pic.jpg"
           alt="Moshood Saka Profile pic"
@@ -33,7 +33,7 @@ const Links = () => {
             borderRadius: "50%",
             border: "3px solid darkgrey",
           }}
-        />
+        /> */}
         <h4 style={{ fontSize: "20px" }}>Computer Science Student @ UW</h4>
       </div>
 

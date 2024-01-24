@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
 import styles from '../styles/ProjectPage.module.css';
+import Skills from "./resume/Skills";
 
 
 const ProjectCard = ({ projectsData }) => {
@@ -30,17 +31,14 @@ const ProjectCard = ({ projectsData }) => {
             legacyBehavior
           >
             <a key={index} className={styles.cardLink}>
-              <button className={styles.cardButton}>Learn More</button>
-
               <h2>{project.pname}</h2>
               <br />
 
               <p>{project.briefDesc}</p>
 
-              <hr />
-              <p>{"lglg"}</p>
               <br />
-              <p>{project.tag == "p" ? "Project" : "Client"}</p>
+              {/* <p>{project.techStack}</p> */}
+              <Skills skillsList={project.skillsList}/>
             </a>
           </Link>
         </div>

@@ -1,7 +1,5 @@
 import Education from "./Education";
 import Experience from "./Experience";
-import Summary from "./Summary";
-import Techstack from "./Techstack";
 import Skills from "./Skills";
 
 const Resumetemplate = () => {
@@ -12,9 +10,7 @@ return (
         <Experience />
       </div>
       <div className="otherexperience">
-        <Summary />
-        <Education />
-        <Techstack />
+                <Education />
         <Skills />
       </div>
     </div>

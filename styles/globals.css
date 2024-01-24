@@ -20,24 +20,42 @@ body {
   height: 100%;
   overflow-x: auto;
 }
+/* color: white;  */
+  /* background: url(../public/images/mainbg.png); */
+/* background-color: #367588; e7f0d8*/
 
 body {
 color: white; 
   /* background: url(../public/images/mainbg.png); */
-background-color: #222222;
-        background-image: linear-gradient(29.93deg, #42496F 0%, rgba(66, 73, 111, 0) 37.51%),
+background-color: #254f5d;
+/* background-image: url('/images/mainbg.png'); */
+        /* background-image: linear-gradient(29.93deg, #42496F 0%, rgba(66, 73, 111, 0) 37.51%),
         linear-gradient(186.09deg, #434F6C 0%, rgba(67, 79, 108, 0) 39.79%),
         linear-gradient(235.04deg, #45637B 1.66%, rgba(69, 99, 123, 0) 52.55%),
         linear-gradient(71.3deg, #725648 6.08%, rgba(114, 86, 72, 0) 81.88%),
         linear-gradient(161.8deg, #795E65 5.13%, rgba(121, 94, 101, 0) 23.4%),
         linear-gradient(293.67deg, #7F5E64 10.87%, rgba(126, 94, 98, 0) 83.24%),
         linear-gradient(0deg, #FFFFFF, #FFFFFF),
-        linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+        linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)); */
         
   font-family: var(--font-poppins), var(--font-system-ui), var(--font-mono); 
   /* padding: 30px 25px 0px 30px; Top, right, bottom, left padding respectively  */
   }
  
+  .home{
+    display: flex;
+  flex-direction: column;
+  align-items: center; /* Vertical alignment */
+  justify-content: center;
+    margin-bottom: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+
+  }
+  .aboutme{
+    color: rgb(167, 167, 167);
+    width: 90%;
+  }
 
 /* .devName {
   font-family: "JetBrains mono";
@@ -72,11 +90,12 @@ a {
 
 .marqueetext{
   font-family: var(--font-poppins);
-  font-weight: 700;
-  font-size: 24px;
+  /* font-weight: 700; */
+  /* font-size: 24px; */
   padding: 20px 0px 20px 0px; /*Top, right, bottom, left padding respectively*/
-  background-color: rgba(255, 255, 255, 0.4); /* White background with 70% opacity */
+  /* background-color: rgba(255, 255, 255, 0.4);  */
   margin-bottom: 30px;
+  /* color:#aaa27c; */
 }
 
 .linktree{
@@ -122,54 +141,54 @@ a {
   display: flex;
   align-items: center; /* Vertical alignment */
   justify-content: center; /* Horizontal alignment */
+  
   margin-top: 1em;
-  padding: 0.5em;
-  border-radius: 30px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid white;
-  box-shadow: 3px 2px 60px 2px rgba(0,0,0,0.4);
+  padding: 1em;
+  /* border-radius: 60px; */
+  /* background-color: #36758828; */
 
 } 
-.downloadresumebutton {
-    border-radius: 30px;
-    background-color: white;
-    color: black;
-    padding: 0.5em;
-    padding-right: 1em;
-    padding-left: 1em;
-    margin-left: -90px;
-    margin-top: 10px;
-    height: 10em;
-    width: 10em;
-    border: 5px solid lightgray;
-    cursor: pointer;
-  box-shadow: 3px 2px 60px 2px rgba(0,0,0,0.7);
 
-  }
 .resumenavmain{
   display: flex;
   align-items: center;
+  flex-direction: column;
+  background-color: #36758828;
+  border-radius: 60px;
+  padding: 1em;
+  margin-top: 1em;
+
+
 
 }
 .resume-social-media-icons{
   display: flex;
   justify-content: space-around;
-  min-width: 30em;
+  min-width: 20em;
 
-  margin-right: 5em;
   border-radius: 10px; /* Optional, to round the corners */
   padding: 10px;
 }
 .profile_text_container{
   margin-left: 1em;
 }
+.profile_text_container h2{
+font-size: 80px;
+}
+.profile_text_container p{
+font-size: 30px;
+}
+
 .profile_container{
   display: flex;
-  border-right: 1px solid white;
-  width: fit-content;
+  border-right: 1px solid #d0d8c2;
   justify-content: space-between; /* Horizontal alignment */
   margin: 1em;
   padding-right: 2.5em;
+
+}
+.profile_dashboard{
+  border-right: 0.5px solid #d0d8c2;
 
 }
 .resumewrapper{
@@ -188,27 +207,34 @@ flex-direction: column;
 justify-content:space-around;
   color: black;
   margin: 0.5em;
-  height: 46.5em;
+  height: 38.5em;
 
 }
 
+.skills{
+  background-color: #aaa27c4c;
+  margin-right: 1em;
+  padding: 0.25rem 0.75rem;
+  border-radius: 50px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+
 .otherexperience_style{
-  color: black;
-  border-radius: 30px; /* Optional, to round the corners */
-  background-color: white;
-  padding: 1em;
-  border: 5px solid rgba(128, 128, 128, 0.463);
-  margin-bottom: 0.5em;
+  color: #e7f0d8;
+  padding: 0.5em;
+  /* border: 5px solid rgba(128, 128, 128, 0.463); */
   height: inherit;
+
 }
 
 .experience_header {
 display: flex;
-justify-content: space-between; /* Horizontal alignment */
 }
 
 .experience_card p {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
 }
 .otherexperience p {
@@ -220,12 +246,24 @@ justify-content: space-between; /* Horizontal alignment */
   font-weight: 600;
 }
 .experience_card ul {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 400;
 }
 
 .workTitle{
-  color: grey;
+  color: white;
+
+}
+.workTime{
+  color:rgb(167, 167, 167);
+}
+
+.workInfo{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 5em;
+  
 }
 
 .experience_card {
@@ -235,17 +273,14 @@ justify-content: space-between; /* Horizontal alignment */
   padding-bottom: 1em;
   padding-left: 1em;
   /* background-color: white; */
-  color: black;
+  color: rgb(167, 167, 167);
+ 
+}
+.experience_section{
+  display: flex;
+  flex-direction: column;
+}
 
-}
-.experience {
-  border-radius: 30px; /* Optional, to round the corners */
-  background-color: white;
-  padding: 1em;
-  border: 5px solid rgba(128, 128, 128, 0.463);
-  margin-bottom: 1em;
-  width: 60%;
-}
 .resumetemplate{
   display: flex;
   flex-direction: column;
@@ -324,14 +359,7 @@ justify-content: space-between; /* Horizontal alignment */
 display: flex;
 flex-direction: column;
 }
-.experience {
-  border-radius: 30px; /* Optional, to round the corners */
-  background-color: white;
-  padding: 1em;
-  border: 5px solid rgba(128, 128, 128, 0.463);
-  margin-bottom: 1em;
-  width: 100%;
-}
+
 }
 
 

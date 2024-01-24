@@ -7,23 +7,23 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <DevName text="MS._"/>
+        <DevName text="MS._" />
       </div>
       <div className={styles.menu}>
         <ul className={styles.ulStyle}>
           <li className={styles.menuItem}>
-            <Link href="/resume" legacyBehavior>
-              <a className={styles.menuLink}>Resume</a>
-            </Link>
-          </li>
-          <li className={styles.menuItem}>
-            <Link href="/projects" legacyBehavior>
-              <a className={styles.menuLink}>Projects</a>
-            </Link>
-          </li>
-          <li className={styles.menuItem}>
-            <Link href="/about" legacyBehavior>
+            <Link href="#about" legacyBehavior>
               <a className={styles.menuLink}>About</a>
+            </Link>
+          </li>
+          <li className={styles.menuItem}>
+            <Link href="#experience" legacyBehavior>
+              <a className={styles.menuLink}>Experience</a>
+            </Link>
+          </li>
+          <li className={styles.menuItem}>
+            <Link href="#projects" legacyBehavior>
+              <a className={styles.menuLink}>Projects</a>
             </Link>
           </li>
         </ul>
