@@ -14,8 +14,8 @@ return (
             width={size}
             height={size}
           />
-        </a>
         <p>LinkedIn</p>
+        </a>
       </div>
       <div class="icon-container">
         <a href="https://github.com/saka01" target="_blank">
@@ -26,8 +26,8 @@ return (
             width={size}
             height={size}
           />
-        </a>
         <p>GitHub</p>
+        </a>
       </div>
       <div class="icon-container">
         <a href="https://discord.com/users/1000k" target="_blank">
@@ -38,8 +38,8 @@ return (
             width={size}
             height={size}
           />
-        </a>
         <p>Discord</p>
+        </a>
       </div>
       <div class="icon-container">
         <a href="mailto:sakamoshood@ymail.com">
@@ -50,8 +50,8 @@ return (
             width={size}
             height={size}
           />
-        </a>
         <p>Email</p>
+        </a>
       </div>
     </div>
   </div>

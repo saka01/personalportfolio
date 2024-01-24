@@ -71,7 +71,7 @@ a {
 .social-media-icons {
   display: flex;
   justify-content: space-around;
-  width: 300px;
+  width: 350px;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 10px; /* Optional, to round the corners */
@@ -142,7 +142,6 @@ a {
   align-items: center; /* Vertical alignment */
   justify-content: center; /* Horizontal alignment */
   
-  margin-top: 1em;
   padding: 1em;
   /* border-radius: 60px; */
   /* background-color: #36758828; */
@@ -157,8 +156,7 @@ a {
   border-radius: 60px;
   padding: 1em;
   margin-top: 1em;
-
-
+  border: 5px solid #36758828;
 
 }
 .resume-social-media-icons{

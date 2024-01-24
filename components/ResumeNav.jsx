@@ -2,6 +2,7 @@ import Image from "next/image";
 import Resume from "/public/files/myresume.pdf";
 import DevName from "./DevName";
 import styles from "styles/Navbar.module.css";
+import Socials from "./Socials";
 
 
 const ResumeNav = () => {
@@ -52,56 +53,7 @@ const ResumeNav = () => {
             <h2>⚡ Currently</h2>
             <p>Software Engineer [Contract] </p>
           </div>
-          <div class="resume-social-media-icons">
-            <div class="icon-container">
-              <a href="https://www.linkedin.com/in/sakam" target="_blank">
-                <Image
-                  src="/images/Icon=Linkedin.svg"
-                  alt="LinkedIn"
-                  class="icon"
-                  width={150}
-                  height={150}
-                />
-                <p>LinkedIn</p>
-              </a>
-            </div>
-            <div class="icon-container">
-              <a href="https://github.com/saka01" target="_blank">
-                <Image
-                  src="/images/Icon=Github.svg"
-                  alt="GitHub"
-                  class="icon"
-                  width={150}
-                  height={150}
-                />
-                <p>GitHub</p>
-              </a>
-            </div>
-            <div class="icon-container">
-              <a href="https://discord.com/users/1000k" target="_blank">
-                <Image
-                  src="/images/Icon=Discord.svg"
-                  alt="Discord"
-                  class="icon"
-                  width={150}
-                  height={150}
-                />
-                <p>Discord</p>
-              </a>
-            </div>
-            <div class="icon-container">
-              <a href="mailto:sakamoshood@ymail.com">
-                <Image
-                  src="/images/Icon=Email.svg"
-                  alt="Email"
-                  class="icon"
-                  width={150}
-                  height={150}
-                />
-                <p>Get in Touch!</p>
-              </a>
-            </div>
-          </div>
+          <Socials size={100} />
         </div>
         <div>
           {/* <h3>--&gt; About</h3>
