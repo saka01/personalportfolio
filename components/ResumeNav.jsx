@@ -33,7 +33,7 @@ const ResumeNav = () => {
           </div>
           <div className="aboutme">
             <span>
-              {`👋 Hello there! I'm a recent graduate from the University of Windsor,
+              {`Hello there! I'm a recent graduate from the University of Windsor,
           where I earned my Bachelor's in Computer Science. As a passionate
           builder, I thrive on the challenges and creativity that coding offers.
           Outside of the tech world, I find my balance and refreshment catching
