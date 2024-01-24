@@ -16,11 +16,13 @@ const Navbar = () => {
               <a className={styles.menuLink}>About</a>
             </Link>
           </li>
+          |
           <li className={styles.menuItem}>
             <Link href="#experience" legacyBehavior>
               <a className={styles.menuLink}>Experience</a>
             </Link>
           </li>
+          |
           <li className={styles.menuItem}>
             <Link href="#projects" legacyBehavior>
               <a className={styles.menuLink}>Projects</a>

@@ -15,7 +15,7 @@ const handleMouseOver = () => {
  const handleMouseOut = () => {
    setTimeout(() => {
      aboutMe.style.color = "rgb(167, 167, 167)"; // Revert after 3s
-   }, 3000);
+   }, 1500);
  };
 
  aboutMe.addEventListener("mouseover", handleMouseOver);
@@ -32,7 +32,7 @@ const handleMouseOver = () => {
     <div className="resumenavmain">
       <div className="resumenavwrapper">
         <div className="profile_dashboard">
-          <div class="profile_container">
+          <div className="profile_container">
             <div className="profile_text_container">
               <div id="about" className={styles.logo}>
                 <DevName text="MS._" />

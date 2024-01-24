@@ -4,7 +4,7 @@
 .menu {
   margin: 0;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #aaa27c4c;
   border-radius: 50px;
   display: flex;
   justify-content: flex-end;
