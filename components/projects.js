@@ -8,13 +8,13 @@ const ProjectPage = () => {
       pname: "Canteenly",
       briefDesc:
         "Web App to help HomeCooks with logistics and customer retention",
-      skillsList: ["JavaScript", "NodeJS", "React", "TailwindCSS"],
+      skillsList: ["JavaScript", "NodeJS", "React", "TailwindCSS", "Google Firebase"],
       pic: "/images/hotn.png",
     },
     {
       pname: "Partyer",
       briefDesc: "Web App to host events.",
-      skillsList: ["JavaScript", "NodeJS", "React"],
+      skillsList: ["JavaScript", "NodeJS", "React", "PostgreSQL"],
       pic: "/images/hotn.png",
     },
     {

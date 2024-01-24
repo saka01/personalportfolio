@@ -3,13 +3,34 @@ import Resume from "/public/files/myresume.pdf";
 import DevName from "./DevName";
 import styles from "styles/Navbar.module.css";
 import Socials from "./Socials";
-
+import { useEffect } from "react";
 
 const ResumeNav = () => {
 
+  useEffect(() => {
+const aboutMe = document.querySelector(".aboutme");
+const handleMouseOver = () => {
+  aboutMe.style.color = "#d0d8c2"; // Yellow on hover
+};
+ const handleMouseOut = () => {
+   setTimeout(() => {
+     aboutMe.style.color = "rgb(167, 167, 167)"; // Revert after 3s
+   }, 3000);
+ };
+
+ aboutMe.addEventListener("mouseover", handleMouseOver);
+ aboutMe.addEventListener("mouseout", handleMouseOut);
+
+ // Cleanup
+ return () => {
+   aboutMe.removeEventListener("mouseover", handleMouseOver);
+   aboutMe.removeEventListener("mouseout", handleMouseOut);
+ };
+  }, [])
+
   return (
     <div className="resumenavmain">
-      <div class="resumenavwrapper">
+      <div className="resumenavwrapper">
         <div className="profile_dashboard">
           <div class="profile_container">
             <div className="profile_text_container">
@@ -46,14 +67,23 @@ const ResumeNav = () => {
             <br />
             <br />
           </div>
-          <div>
-            <hr />
-            <h2>📍Based In</h2>
-            <p>Toronto, Ontario </p>
-            <h2>⚡ Currently</h2>
-            <p>Software Engineer [Contract] </p>
+          <hr className="customHr"/>
+          <div className="home_info_block">
+            <div className="based_in">
+              <br />
+              <h2>📍Based In</h2>
+              <p>Toronto, Ontario </p>
+            </div>
+            <div className="currently_status">
+              <br />
+
+              <h2>⚡ Currently</h2>
+              <p>Software Engineer [Contract] </p>
+            </div>
+            <div className="socials_block">
+              <Socials size={100} />
+            </div>
           </div>
-          <Socials size={100} />
         </div>
         <div>
           {/* <h3>--&gt; About</h3>

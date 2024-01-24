@@ -50,11 +50,23 @@ background-color: #254f5d;
     margin-bottom: 5em;
     margin-left: 5em;
     margin-right: 5em;
-
   }
+
   .aboutme{
     color: rgb(167, 167, 167);
     width: 90%;
+  }
+
+  .aboutme:hover{
+    color: #d0d8c2;
+    /* transition-duration: 3s; */
+  }
+
+  .home_info_block{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+  justify-content: space-between;
   }
 
 /* .devName {
@@ -71,15 +83,29 @@ a {
 .social-media-icons {
   display: flex;
   justify-content: space-around;
-  width: 350px;
+  /* width: 350px; */
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.4);
+  /* background-color: #d0d8c2; */
+  /* background-color: #aaa27c4c; */
   border-radius: 10px; /* Optional, to round the corners */
   padding: 10px;
 }
 
 .icon-container {
   text-align: center;
+  border: 1px solid #aaa27c4c;
+  margin-right: 1em;
+    padding: 1em 1.3em 1em 1.3em;
+}
+
+.customHr{
+  border: none;
+background-color: #d0d8c2;
+height: 0.5px;
+}
+
+.icon-container:hover {
+  border: 0.5px solid #d0d8c2;
 }
 
 .icon {
