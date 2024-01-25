@@ -7,21 +7,27 @@ const ProjectPage = () => {
     {
       pname: "Canteenly",
       briefDesc:
-        "Web App to help HomeCooks with logistics and customer retention",
-      skillsList: ["JavaScript", "NodeJS", "React", "TailwindCSS", "Google Firebase"],
-      pic: "/images/hotn.png",
-    },
-    {
-      pname: "Partyer",
-      briefDesc: "Web App to host events.",
-      skillsList: ["JavaScript", "NodeJS", "React", "PostgreSQL"],
-      pic: "/images/hotn.png",
+        "A Web App to help HomeCooks with logistics and increase customer retention",
+      skillsList: [
+        "JavaScript",
+        "NodeJS",
+        "React",
+        "TailwindCSS",
+        "Google Firebase",
+      ],
+      link: "https://canteenly.vercel.app/",
     },
     {
       pname: "Portfolio",
-      briefDesc: "Personal Portfolio",
-      skillsList: ["TypeScript", "JavaScript"],
-      pic: "/images/hotn.png",
+      briefDesc: "My Personal Portfolio",
+      skillsList: ["TypeScript", "JavaScript", "ReactJS", "NextJS", "Vercel"],
+      link: "https://www.moshoodsaka.com",
+    },
+    {
+      pname: "Lotide",
+      briefDesc: "A Mini Clone of the Lodash NPM Library",
+      skillsList: ["JavaScript", "Chai", "Mocha"],
+      link: "https://www.npmjs.com/package/@saka01/lotide",
     },
   ];
   return (
