@@ -65,7 +65,7 @@ background-color: #254f5d;
   }
 
   .aboutme{
-    color: rgb(167, 167, 167);
+    color: #a7a7a7;
     width: 90%;
   }
 
@@ -325,10 +325,7 @@ display: flex;
 
  
 }
-.experience_card:hover{
 
-
-}
 .experience_section{
   display: flex;
   flex-direction: column;

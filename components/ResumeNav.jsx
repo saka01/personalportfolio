@@ -1,9 +1,7 @@
 import Image from "next/image";
-import Resume from "/public/files/myresume.pdf";
 import DevName from "./DevName";
 import styles from "styles/Navbar.module.css";
 import Socials from "./Socials";
-import { useEffect } from "react";
 import TypeIt from "typeit-react";
 
 const ResumeNav = () => {
@@ -71,13 +69,7 @@ const ResumeNav = () => {
             </div>
           </div>
         </div>
-        <div>
-          {/* <h3>--&gt; About</h3>
-          <h3>-- About</h3>
-          <h3>-- About</h3>
-          <h3>-- About</h3>
-          <h3>-- About</h3> */}
-        </div>
+        <div></div>
       </div>
     </div>
   );

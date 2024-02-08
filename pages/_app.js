@@ -11,7 +11,9 @@ function MyApp({ Component, pageProps }) {
   return getLayout(
     <>
       <Head>
+        <title>Moshood Saka</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="My new title" key="title" />
       </Head>
       <Component {...pageProps} />
       <Analytics />

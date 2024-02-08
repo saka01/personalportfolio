@@ -64,7 +64,7 @@ const Experience = () => {
                 {`${job.companyName}  • `}
                 <i className="custyItalics">{job.workTitle}</i>
               </p>
-              <ul>
+              <ul style={{fontSize: "14px"}}>
                 {job.workNotes.map((note, index) => (
                   <li key={index}>{note}</li>
                 ))}
