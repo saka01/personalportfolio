@@ -40,8 +40,7 @@ const ResumeNav = () => {
          \nMy ambition is to join
           a forward-thinking company where innovation, collaboration, and a
           commitment to continuous learning and growth are at the heart of its
-          culture. I am excited to explore the ever-evolving tech landscape and
-          the possibilities it holds.`}
+          culture.`}
           </span>
           <br />
           <br />
