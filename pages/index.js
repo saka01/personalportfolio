@@ -13,19 +13,13 @@ export default function Home() {
   const frameworks = ["ReactJS", "NextJS", "NodeJS", "Django", "Flask"];
   const others = ["Git/GitHub", "Google Cloud", "MongoDB"];
 
-
-
   return (
     <section className="home">
       <ResumeNav />
-        {/* <Education /> */}
-      <div id="experience">
-        <Experience />
-      </div>
-      <div id="projects">
-        <ProjectPage />
-        <TechStack />
-      </div>
+      <Education />
+      <Experience />
+      <ProjectPage />
+      <TechStack />
     </section>
   );
 }

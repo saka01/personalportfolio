@@ -220,16 +220,15 @@ justify-content:space-around;
   border-radius: 50px;
   font-size: 10px;
   font-weight: 500;
+  width: max-content;
 }
 
-
-.otherexperience_style{
+.skillsContainer{
+  display: flex;
+  flex-direction: row;
   color: #e7f0d8;
-  /* padding: 0.5em; */
-  /* border: 5px solid rgba(128, 128, 128, 0.463); */
-  /* height: inherit; */
-
 }
+
 
 .experience_header {
 display: flex;

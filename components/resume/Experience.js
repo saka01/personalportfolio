@@ -60,27 +60,23 @@ const Experience = () => {
     <div className="experience_section">
       <h3 style={{ color: "#d0d8c2" }}>EXPERIENCE</h3>
       {Edata.map((job, index) => (
-        <div className="experience_card" key={index}>
+          <div className="experience_card" key={index}>
+            <span className="workTime">{`${job.workTime}`}</span>
 
-          <span className="workTime">{`${job.workTime}`}</span>
+            <div className="experience_header">
+              <p className="workTitle">
+                {`${job.companyName}  • `}
+                <i className="custyItalics">{job.workTitle}</i>
+              </p>
+            </div>
 
-        <br />
+            <div className="workInfo">
+              <span>{job.summary}</span>
+            </div>
+            <br />
 
-          <div className="experience_header">
-
-            <p className="workTitle">
-              {`${job.companyName}  • `}
-              <i className="custyItalics">{job.workTitle}</i>
-            </p>
-
+            <Skills skillsList={job.skillsList} />
           </div>
-
-          <div className="workInfo">
-            <span>{job.summary}</span>
-          </div>
-
-          {/* <Skills skillsList={job.skillsList} /> */}
-        </div>
       ))}
     </div>
   );
