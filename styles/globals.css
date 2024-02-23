@@ -314,6 +314,9 @@ display: flex;
   justify-content: center;
 }
 
+.currently_status p{
+  font-size: 16px;
+}
  
 
 @media screen and (max-width: 1023px) {
@@ -353,15 +356,18 @@ display: flex;
 .based_in{
   display: none;
 }
-.currently_status{
+.currently_status h2{
   display: none;
 }
-
+.currently_status p{
+  font-size: 12px;
+}
 .home_info_block{
   display:flex;
   align-items: center;
   justify-content: center;
   border: 0px;
+  flex-direction: column-reverse;
 }
 
 .profile_text_container h2{

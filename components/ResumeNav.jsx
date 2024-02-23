@@ -61,7 +61,7 @@ const ResumeNav = () => {
           <div className="currently_status">
             <br />
             <h2>⚡ Currently</h2>
-            <p>
+            <p className="skills">
               <i style={{ color: "#d0d8c2" }}>
                 Available For New Grad Opportunities from
                 <strong> April 2024</strong>
