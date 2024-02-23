@@ -35,11 +35,12 @@ const ResumeNav = () => {
         <div className="aboutme">
           <br />
           <h3 style={{ color: "#d0d8c2" }}>ABOUT</h3>
+          <br />
           <span>
-            Hello there! I'm a recent graduate from the University of Windsor,
-            where I earned my Bachelor's in Computer Science. As a passionate
-            builder, I thrive on the challenges and creativity that coding
-            offers.
+            Hello there! I&apos;m a recent graduate from the University of
+            Windsor, where I earned my Bachelor&apos;s in Computer Science. As a
+            passionate builder, I thrive on the challenges and creativity that
+            coding offers.
           </span>
           <br />
           <br />
