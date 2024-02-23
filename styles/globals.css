@@ -18,27 +18,15 @@
 body {
   max-width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
-/* color: white;  */
-  /* background: url(../public/images/mainbg.png); */
-/* background-color: #367588; e7f0d8*/
+
 
 body {
 color: white; 
-  /* background: url(../public/images/mainbg.png); */
 background-color: #254f5d;
-/* background-image: url('/images/mainbg.png'); */
-        /* background-image: linear-gradient(29.93deg, #42496F 0%, rgba(66, 73, 111, 0) 37.51%),
-        linear-gradient(186.09deg, #434F6C 0%, rgba(67, 79, 108, 0) 39.79%),
-        linear-gradient(235.04deg, #45637B 1.66%, rgba(69, 99, 123, 0) 52.55%),
-        linear-gradient(71.3deg, #725648 6.08%, rgba(114, 86, 72, 0) 81.88%),
-        linear-gradient(161.8deg, #795E65 5.13%, rgba(121, 94, 101, 0) 23.4%),
-        linear-gradient(293.67deg, #7F5E64 10.87%, rgba(126, 94, 98, 0) 83.24%),
-        linear-gradient(0deg, #FFFFFF, #FFFFFF),
-        linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)); */
         
   font-family: var(--font-poppins), var(--font-system-ui), var(--font-mono); 
-  /* padding: 30px 25px 0px 30px; Top, right, bottom, left padding respectively  */
 
   }
  ::-webkit-scrollbar {
