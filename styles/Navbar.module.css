@@ -44,31 +44,8 @@
 }
 
 
-@media screen and (min-width: 1240px) {
-  /* .navbar{
-  display: flex;
-  align-items: center;
-  color: aqua;
-    justify-content: center;
-    gap: 1em;
-      margin-top: 1em;
-  margin-left: 1em;
+@media screen and (max-width: 1023px) {
+.navbar{
+  display: none;
 }
-.logo{
-    justify-content:flex-start;
-
-} */
-
-  .downloadresumebutton {
-    border-radius: "50px";
-    background-color: "white";
-    color: "black";
-    padding: "1em";
-    padding-right: "1em";
-    padding-left: "1em";
-    margin-left: "-100px";
-    height: "15em";
-    width: "15em";
-    border: "white";
-  }
 }

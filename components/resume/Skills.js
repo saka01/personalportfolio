@@ -6,7 +6,7 @@ const Skills = ({ skillsList, header }) => {
 
   useEffect(() => {
     const handleResize = () => {
-      const maxSkills = window.innerWidth >= 768 ? skillsList.length : 4;
+      const maxSkills = window.innerWidth >= 1023 ? skillsList.length : 3;
       setMaxSkillsToShow(maxSkills);
     };
 

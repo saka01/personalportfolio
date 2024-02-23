@@ -33,6 +33,7 @@ const ResumeNav = () => {
           /> */}
         </div>
         <div className="aboutme">
+          <br/>
           <h3 style={{ color: "#d0d8c2" }}>ABOUT</h3>
           <span>
             Hello there! I&apos;m a recent graduate from the University of
@@ -73,7 +74,6 @@ const ResumeNav = () => {
           </div>
         </div>
       </div>
-      <div></div>
     </div>
   );
 };
