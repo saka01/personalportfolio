@@ -6,7 +6,7 @@ const Experience = () => {
       workTime: "[4 Months]",
       workTitle: "Software Engineer Intern",
       summary:
-        "• During my four-month tenure at Pivot Integrated Technologies, I collaborated with a cross-functional team to enhance platform functionality and improve UI. Responsibilities included developing API endpoints in Python micro-services, updating Redux logic, and participating in weekly release cycles.",
+        "• At Pivot Integrated Technologies, I led the development of multiple features, improving client-facing functionality with JavaScript, React, Redux, AWS, and NodeJS. I also utilized Agile practices, enhancing team collaboration and sprint efficiency. Additionally, I conducted thorough code reviews to maintain code quality, resulting in a significant reduction in bug rates.",
       skillsList: [
         "JavaScript",
         "ReactJS",
@@ -61,17 +61,25 @@ const Experience = () => {
       <h3 style={{ color: "#d0d8c2" }}>EXPERIENCE</h3>
       {Edata.map((job, index) => (
         <div className="experience_card" key={index}>
+
+          <span className="workTime">{`${job.workTime}`}</span>
+
+        <br />
+
           <div className="experience_header">
+
             <p className="workTitle">
               {`${job.companyName}  • `}
               <i className="custyItalics">{job.workTitle}</i>
-              <span className="workTime">{`  • ${job.workTime}`}</span>
             </p>
+
           </div>
+
           <div className="workInfo">
-            <p>{job.summary}</p>
+            <span>{job.summary}</span>
           </div>
-          <Skills skillsList={job.skillsList} />
+
+          {/* <Skills skillsList={job.skillsList} /> */}
         </div>
       ))}
     </div>

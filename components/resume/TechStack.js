@@ -7,29 +7,25 @@ const TechStack = () => {
     <>
       <h3 style={{ color: "#d0d8c2" }}>TECH STACK</h3>
       {techstack.map((data, index) => (
-        <>
+            
+        <div key={index}>
           <Image
-            key={index}
+            // key={index}
             src={`/images/Icon=${data}.svg`}
             alt="Moshood Saka Profile pic"
             width={60}
             height={60}
-            style={
-              {
-                // marginRight: "25px",
-              }
-            }
           />
           <span
             style={{
               marginRight: "25px",
             }}
-            key={index}
+            // key={index}
             className="skills"
           >
             {data}
           </span>
-        </>
+        </div>
       ))}
     </>
   );

@@ -13,14 +13,13 @@ export default function Home() {
   const frameworks = ["ReactJS", "NextJS", "NodeJS", "Django", "Flask"];
   const others = ["Git/GitHub", "Google Cloud", "MongoDB"];
 
-  const techstack = ["Html", "js", "next", "nodejs", "python"];
 
 
   return (
     <section className="home">
       <ResumeNav />
       <div id="experience">
-        <Education />
+        {/* <Education /> */}
         <Experience />
       </div>
       <div id="projects">
