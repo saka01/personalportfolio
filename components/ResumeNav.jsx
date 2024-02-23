@@ -33,7 +33,6 @@ const ResumeNav = () => {
           /> */}
         </div>
         <div className="aboutme">
-          <br />
           <h3 style={{ color: "#d0d8c2" }}>ABOUT</h3>
           <br />
           <span>
