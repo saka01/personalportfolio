@@ -44,7 +44,7 @@ background-color: #254f5d;
   .home{
     display: flex;
   flex-direction: column;
-  align-items: center; /* Vertical alignment */
+  align-items: flex-start; /* Vertical alignment */
   justify-content: center;
     margin-bottom: 5em;
     margin-left: 5em;
@@ -295,6 +295,12 @@ display: flex;
   margin-top: 3em;
   width:fit-content;
 }
+.education_section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  width:fit-content;
+}
 
 .resumetemplate{
   display: flex;
@@ -310,7 +316,7 @@ display: flex;
   .home{
   display: flex;
   flex-direction: column;
-  align-items: center; /* Vertical alignment */
+  align-items: flex-start; /* Vertical alignment */
   justify-content: center;
   margin: 1em;
   }
@@ -322,6 +328,12 @@ display: flex;
 
 }
 
+ .education_section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+
+}
   .resumenavmain{
   display: flex;
   align-items: center;

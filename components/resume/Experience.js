@@ -41,7 +41,7 @@ const Experience = () => {
     {
       companyName: "Google",
       workTime: "[4 Months]",
-      workTitle: "Software Product Sprint Participant",
+      workTitle: "Software Product Sprint",
       summary:
         "• During Google's Software Product Sprint, I collaborated on building a crypto web app, implementing Google OAuth in Python, and utilizing Google Cloud for data management. ",
       skillsList: ["HTML/CSS", "JavaScript", "Google Cloud", "Java"],
@@ -49,7 +49,7 @@ const Experience = () => {
     {
       companyName: "Google",
       workTime: "[1 Month]",
-      workTitle: "Computer Science Summer Institute Participant",
+      workTitle: "Computer Science Summer Institute",
       summary:
         "• As a selected participant in the competitive Google's Computer Science Summer Institute, I contributed to developing a resume builder, implementing Google OAuth in Python, and utilizing Google Cloud. ",
       skillsList: ["HTML/CSS", "JavaScript", "Python", "Google Cloud"],
