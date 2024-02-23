@@ -15,7 +15,7 @@ const ResumeNav = () => {
             <div id="about" className={styles.logo}>
               <DevName text="MS._" />
             </div>
-            <h2>👋Moshood Saka</h2>
+            <h2>Moshood Saka</h2>
             <TypeIt as={"p"}>
               Experienced Full-Stack Software Engineer 💻
             </TypeIt>
@@ -33,14 +33,20 @@ const ResumeNav = () => {
           /> */}
         </div>
         <div className="aboutme">
+          <br />
+          <h3 style={{ color: "#d0d8c2" }}>ABOUT</h3>
           <span>
-            {`Hello there! I'm a recent graduate from the University of Windsor,
-          where I earned my Bachelor's in Computer Science. As a passionate
-          builder, I thrive on the challenges and creativity that coding offers.
-         \nMy ambition is to join
-          a forward-thinking company where innovation, collaboration, and a
-          commitment to continuous learning and growth are at the heart of its
-          culture.`}
+            Hello there! I'm a recent graduate from the University of Windsor,
+            where I earned my Bachelor's in Computer Science. As a passionate
+            builder, I thrive on the challenges and creativity that coding
+            offers.
+          </span>
+          <br />
+          <br />
+          <span>
+            My ambition is to join a forward-thinking company where innovation,
+            collaboration, and a commitment to continuous learning and growth
+            are at the heart of its culture.
           </span>
           <br />
           <br />
@@ -57,7 +63,7 @@ const ResumeNav = () => {
             <h2>⚡ Currently</h2>
             <p>
               <i style={{ color: "#d0d8c2" }}>
-                Available For New Grad Opportunities from 
+                Available For New Grad Opportunities from
                 <strong> April 2024</strong>
               </i>
             </p>
