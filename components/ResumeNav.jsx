@@ -20,7 +20,7 @@ const ResumeNav = () => {
               Experienced Full-Stack Software Engineer 💻
             </TypeIt>
           </div>
-          <Image
+          {/* <Image
             id="profile_pic"
             src="/images/profile_pic.jpg"
             alt="Moshood Saka Profile pic"
@@ -30,7 +30,7 @@ const ResumeNav = () => {
               borderRadius: "50%",
               border: "1px solid #d0d8c2",
             }}
-          />
+          /> */}
         </div>
         <div className="aboutme">
           <span>
@@ -50,12 +50,17 @@ const ResumeNav = () => {
           <div className="based_in">
             <br />
             <h2>📍Based In</h2>
-            <p>Toronto, Ontario </p>
+            <i>Toronto, Ontario </i>
           </div>
           <div className="currently_status">
             <br />
             <h2>⚡ Currently</h2>
-            <p>Software Engineer[Contract] @ Pivot Integrated Technologies</p>
+            <p>
+              <i style={{ color: "#d0d8c2" }}>
+                Available For New Grad Opportunities from 
+                <strong> April 2024</strong>
+              </i>
+            </p>
           </div>
           <div className="socials_block">
             <br />

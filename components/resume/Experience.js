@@ -2,6 +2,24 @@ import Skills from "./Skills";
 const Experience = () => {
   const Edata = [
     {
+      companyName: "Pivot Integrated Technologies",
+      workTime: "May 2023 ➔ Aug 2023",
+      workTitle: "Software Engineer Intern",
+      workNotes: [
+        "Collaborated with a cross-functional team to design, document, and develop features, increasing platform functionality by 10%. Enhanced UI by designing new React components and updating Redux logic.",
+        "Developed API end points in python micro-services using the fastAPI framework and improving API integration test coverage from 75% to 92%. Utilized panda’s library for data manipulation.",
+        "Played an active role in the team's weekly release cycles, handling version tagging and pre-release validations, which led to a 5% decrease in deployment-related issues.",
+      ],
+      skillsList: [
+        "JavaScript",
+        "ReactJS",
+        "Python",
+        "Docker",
+        "Pandas",
+        "Circle CI",
+      ],
+    },
+    {
       companyName: "Canvass AI",
       workTime: "January 2022 ➔ May 2022",
       workTitle: "Software Engineer Intern",
@@ -64,11 +82,6 @@ const Experience = () => {
                 {`${job.companyName}  • `}
                 <i className="custyItalics">{job.workTitle}</i>
               </p>
-              <ul style={{fontSize: "14px"}}>
-                {job.workNotes.map((note, index) => (
-                  <li key={index}>{note}</li>
-                ))}
-              </ul>
               <Skills skillsList={job.skillsList} />
             </div>
           </div>

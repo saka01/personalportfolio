@@ -3,7 +3,7 @@ const Education = () => {
   const Edata = [
     {
       companyName: "University Of Windsor",
-      workTime: "Sept 2019 ➔ April 2024",
+      workTime: "September 2019 ➔ April 2024",
       workTitle: "Bachelor Of Computer Science",
       skillsList: [
         "Software Engineering",
