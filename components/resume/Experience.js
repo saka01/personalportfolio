@@ -3,31 +3,24 @@ const Experience = () => {
   const Edata = [
     {
       companyName: "Pivot Integrated Technologies",
-      workTime: "May 2023 ➔ Aug 2023",
+      workTime: "[4 Months]",
       workTitle: "Software Engineer Intern",
-      workNotes: [
-        "Collaborated with a cross-functional team to design, document, and develop features, increasing platform functionality by 10%. Enhanced UI by designing new React components and updating Redux logic.",
-        "Developed API end points in python micro-services using the fastAPI framework and improving API integration test coverage from 75% to 92%. Utilized panda’s library for data manipulation.",
-        "Played an active role in the team's weekly release cycles, handling version tagging and pre-release validations, which led to a 5% decrease in deployment-related issues.",
-      ],
+      summary:
+        "• During my four-month tenure at Pivot Integrated Technologies, I collaborated with a cross-functional team to enhance platform functionality and improve UI. Responsibilities included developing API endpoints in Python micro-services, updating Redux logic, and participating in weekly release cycles.",
       skillsList: [
         "JavaScript",
         "ReactJS",
+        "NextJS",
         "Python",
         "Docker",
-        "Pandas",
-        "Circle CI",
       ],
     },
     {
       companyName: "Canvass AI",
-      workTime: "January 2022 ➔ May 2022",
+      workTime: "[4 Months]",
       workTitle: "Software Engineer Intern",
-      workNotes: [
-        "Collaborated with a cross-functional team to design, document, and develop features, increasing platform functionality by 10%. Enhanced UI by designing new React components and updating Redux logic.",
-        "Developed API end points in python micro-services using the fastAPI framework and improving API integration test coverage from 75% to 92%. Utilized panda’s library for data manipulation.",
-        "Played an active role in the team's weekly release cycles, handling version tagging and pre-release validations, which led to a 5% decrease in deployment-related issues.",
-      ],
+      summary:
+        "• At Canvass AI, I collaborated with a team to design, document, and develop features, leading to improved platform functionality. I also contributed to enhancing UI and developing API endpoints in Python micro-services. Additionally, I assisted in the weekly release cycles.",
       skillsList: [
         "JavaScript",
         "ReactJS",
@@ -39,33 +32,26 @@ const Experience = () => {
     },
     {
       companyName: "SM Software Consulting",
-      workTime: "September 2021 ➔ May 2021",
+      workTime: "[4 Months]",
       workTitle: "Mobile Application Engineer Intern",
-      workNotes: [
-        "Transform an initial employment app concept into a cross-platform application, impacting the job search experience for a diverse user base of 1,000+ individuals.",
-        "Produced 5 mobile screens using React-Native making navigation easier and structured the redux logic needed to have a seamless user experience.",
-        "Backend built with NodeJS, executed a secure end-to-end user authentication flow using JWTokens, ensuring data security.",
-      ],
+      summary:
+        "• At SM Software Consulting, I initiated the transformation oof an employment app concept into a cross-platform application, improving the job search experience. Responsibilities included producing mobile screens using React-Native, structuring Redux logic, and ensuring data security with backend built in NodeJS. ",
       skillsList: ["JavaScript", "React-Native", "MSSQL", "NodeJS"],
     },
     {
       companyName: "Google",
-      workTime: "February 2021 ➔ May 2021",
+      workTime: "[4 Months]",
       workTitle: "Software Product Sprint Participant",
-      workNotes: [
-        "Collaborated with a cross-functional team to build a crypto web app with real-time and historical data display.",
-        "Increased user management efficiency by 90%, by implementing Google OAUTH in Python and effectively utilized Google Cloud for data management and application deployment.",
-      ],
+      summary:
+        "• During Google's Software Product Sprint, I collaborated on building a crypto web app, implementing Google OAuth in Python, and utilizing Google Cloud for data management. ",
       skillsList: ["HTML/CSS", "JavaScript", "Google Cloud", "Java"],
     },
     {
       companyName: "Google",
-      workTime: "July 2021 ➔ July 2021",
+      workTime: "[1 Month]",
       workTitle: "Computer Science Summer Institute Participant",
-      workNotes: [
-        "Developed a resume builder as part of a team, utilizing HTML/CSS to build a resume template.",
-        "Increased user management efficiency by 90%, by implementing Google OAUTH in Python and effectively utilized Google Cloud for data management and application deployment.",
-      ],
+      summary:
+        "• As a selected participant in the competitive Google's Computer Science Summer Institute, I contributed to developing a resume builder, implementing Google OAuth in Python, and utilizing Google Cloud. ",
       skillsList: ["HTML/CSS", "JavaScript", "Python", "Google Cloud"],
     },
   ];
@@ -76,15 +62,16 @@ const Experience = () => {
       {Edata.map((job, index) => (
         <div className="experience_card" key={index}>
           <div className="experience_header">
-            <p className="workTime">{job.workTime}</p>
-            <div className="workInfo">
-              <p className="workTitle">
-                {`${job.companyName}  • `}
-                <i className="custyItalics">{job.workTitle}</i>
-              </p>
-              <Skills skillsList={job.skillsList} />
-            </div>
+            <p className="workTitle">
+              {`${job.companyName}  • `}
+              <i className="custyItalics">{job.workTitle}</i>
+              <span className="workTime">{`  • ${job.workTime}`}</span>
+            </p>
           </div>
+          <div className="workInfo">
+            <p>{job.summary}</p>
+          </div>
+          <Skills skillsList={job.skillsList} />
         </div>
       ))}
     </div>

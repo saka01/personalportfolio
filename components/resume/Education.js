@@ -3,7 +3,6 @@ const Education = () => {
   const Edata = [
     {
       companyName: "University Of Windsor",
-      workTime: "September 2019 ➔ April 2024",
       workTitle: "Bachelor Of Computer Science",
       skillsList: [
         "Software Engineering",
@@ -15,7 +14,6 @@ const Education = () => {
     },
     {
       companyName: "LightHouse Labs",
-      workTime: "May 2021 ➔ August 2021",
       workTitle: "Full-Stack Development Bootcamp",
       skillsList: [
         "HTML/CSS",
@@ -37,15 +35,12 @@ const Education = () => {
       {Edata.map((job, index) => (
         <div className="experience_card" key={index}>
           <div className="experience_header">
-            <p className="workTime">{job.workTime}</p>
-            <div className="workInfo">
               <p className="workTitle">
                 {`${job.companyName}  • `}
                 <i className="custyItalics">{job.workTitle}</i>
               </p>
-              <Skills skillsList={job.skillsList} />
-            </div>
           </div>
+          <Skills skillsList={job.skillsList} />
         </div>
       ))}
     </div>

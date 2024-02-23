@@ -6,20 +6,26 @@ import Skills from "@/components/resume/Skills";
 import Experience from "@/components/resume/Experience";
 import Marquee from "react-fast-marquee";
 import Education from "@/components/resume/Education";
+import TechStack from "@/components/resume/TechStack";
 
 export default function Home() {
   const languages = ["JavaScript", "Python", "Java", "C"];
   const frameworks = ["ReactJS", "NextJS", "NodeJS", "Django", "Flask"];
   const others = ["Git/GitHub", "Google Cloud", "MongoDB"];
+
+  const techstack = ["Html", "js", "next", "nodejs", "python"];
+
+
   return (
     <section className="home">
       <ResumeNav />
       <div id="experience">
-        {/* <Education /> */}
-        {/* <Experience /> */}
+        <Education />
+        <Experience />
       </div>
       <div id="projects">
         <ProjectPage />
+        <TechStack />
       </div>
     </section>
   );

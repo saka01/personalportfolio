@@ -238,7 +238,7 @@ justify-content:space-around;
 
 .otherexperience_style{
   color: #e7f0d8;
-  padding: 0.5em;
+  /* padding: 0.5em; */
   /* border: 5px solid rgba(128, 128, 128, 0.463); */
   /* height: inherit; */
 
@@ -250,7 +250,7 @@ display: flex;
 
 .experience_card p {
   font-size: 14px;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 .otherexperience p {
   font-size: 11px;
@@ -267,7 +267,7 @@ display: flex;
 
 .workTitle{
   color: white;
-  font-size: 5em;
+  font-size: 19px;
 
 }
 .workTime{
@@ -285,17 +285,15 @@ display: flex;
 .workInfo{
   display: flex;
   flex-direction: column;
-  width: 70%;
-  margin-left: 5em;
+  margin-left: 2em;
   
 }
 
 .experience_card {
   /* border: 1px solid grey; */
   /* border-bottom: 1px solid black; */
-  padding-top: 1em;
-  padding-bottom: 1em;
-  padding-left: 1em;
+  
+  padding: 2em;
   border-radius: 40px;
   margin-bottom: 0.5em;
   color: rgb(167, 167, 167);
