@@ -234,9 +234,15 @@ display: flex;
 }
 
 .experience_card p {
-  font-size: 14px;
-  /* font-weight: 600; */
+  font-size: 16px;
+  font-weight: 600;
 }
+
+/* .experience_card span {
+  font-size: 12px;
+  font-weight: 200;
+} */
+
 .otherexperience p {
   font-size: 11px;
   font-weight: 400;
@@ -337,9 +343,9 @@ display: flex;
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 2em;
+  padding: 0em;
   border-radius: 40px;
-  /* background-color: transparent; */
+  background-color: transparent;
 }
 .customHr{
   display: none;
