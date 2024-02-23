@@ -4,11 +4,7 @@ const Education = () => {
     {
       companyName: "University Of Windsor",
       workTitle: "Bachelor Of Computer Science",
-      skillsList: [
-        "Software Engineering",
-        "Data Structures & Algorithms",
-        "Cyber Security",
-      ],
+      skillsList: [],
     },
     {
       companyName: "LightHouse Labs",
