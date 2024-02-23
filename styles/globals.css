@@ -18,7 +18,6 @@
 body {
   max-width: 100%;
   height: 100%;
-  overflow-x: auto;
 }
 /* color: white;  */
   /* background: url(../public/images/mainbg.png); */
@@ -392,7 +391,18 @@ display: none;
 display: flex;
 flex-direction: column;
 }
+ ::-webkit-scrollbar {
+  width: 5px;
+}
 
+::-webkit-scrollbar-track {
+  background: #254f5d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d0d8c2;
+  border-radius: 10px;
+}
 }
 
 
