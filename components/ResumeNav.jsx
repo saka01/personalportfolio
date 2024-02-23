@@ -34,7 +34,6 @@ const ResumeNav = () => {
         </div>
         <div className="aboutme">
           <h3 style={{ color: "#d0d8c2" }}>ABOUT</h3>
-          <br />
           <span>
             Hello there! I&apos;m a recent graduate from the University of
             Windsor, where I earned my Bachelor&apos;s in Computer Science. As a

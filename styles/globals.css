@@ -172,7 +172,7 @@ height: 0.5px;
 }
 
 .profile_text_container{
-  margin-left: 1em;
+  /* margin-left: 1em; */
 }
 .profile_text_container h2{
 font-size: 50px;
@@ -347,7 +347,7 @@ font-size: 2em;
 }
 
 .profile_text_container p{
-font-size: 1em;
+font-size: 0.8em;
 }
 
 #profile_pic{
@@ -358,7 +358,7 @@ display: none;
 text-align:start;
 }
 .aboutme span{
-font-size: 1em;
+font-size: 0.8em;
 }
 .profile_container{
   display: flex;
@@ -367,7 +367,7 @@ font-size: 1em;
   border-bottom: 0;
   width: fit-content;
   justify-content: space-between; /* Horizontal alignment */
-  margin: 1em;
+  margin: 0em;
   padding-right: 0em;
 
 }
