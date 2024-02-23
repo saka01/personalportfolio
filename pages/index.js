@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <section className="home">
       <ResumeNav />
-      <div id="experience">
         {/* <Education /> */}
+      <div id="experience">
         <Experience />
       </div>
       <div id="projects">
