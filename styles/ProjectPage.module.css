@@ -44,9 +44,17 @@
   color: white;
 }
 
+.projectHeader p{
+    font-size: 15px;
+  }
+
 @media screen and (max-width: 1023px) {
 
   .projectCard {
+  }
+
+  .projectHeader p{
+    font-size: 14px;
   }
 
 }

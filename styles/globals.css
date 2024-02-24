@@ -371,17 +371,24 @@ display: flex;
   /* border: 0.5px solid #d0d8c2; */
   /* border-bottom: 1px solid black; */
   
-  padding: 1em;
+  padding: 0em;
   border-radius: 40px;
   margin-bottom: 1em;
   color: rgb(170, 170, 170);
-  background-color: #224c5b3e;
+  background-color: transparent;
 
  
+}
+
+.experience_card:hover{
+  background-color: transparent;
+  border: 0px solid #d0d8c2;
+
 }
 .certContainer{
   display: flex;
   flex-direction: row;
+  font-size: 12px;
 }
   .resumenavmain{
   display: flex;
