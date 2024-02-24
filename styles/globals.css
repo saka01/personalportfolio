@@ -273,16 +273,21 @@ display: flex;
 }
 
 .experience_card {
-  /* border: 1px solid grey; */
+  /* border: 0.5px solid #d0d8c2; */
   /* border-bottom: 1px solid black; */
   
   padding: 2em;
   border-radius: 40px;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   color: rgb(167, 167, 167);
   background-color: #224c5b3e;
 
  
+}
+.experience_card:hover{
+  background-color: #224c5b3e;
+  border: 0.5px solid #d0d8c2;
+
 }
 .certContainer{
   display: flex;
@@ -346,11 +351,11 @@ display: flex;
 }
 
 .experience_header p{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .workInfo span{
-  font-size: 10px;
+  font-size: 12px;
 }
 .workTime{
   font-size: 11px;
@@ -362,7 +367,18 @@ display: flex;
   margin-top: 3em;
 
 }
+.experience_card {
+  /* border: 0.5px solid #d0d8c2; */
+  /* border-bottom: 1px solid black; */
+  
+  padding: 1em;
+  border-radius: 40px;
+  margin-bottom: 1em;
+  color: rgb(170, 170, 170);
+  background-color: #224c5b3e;
 
+ 
+}
 .certContainer{
   display: flex;
   flex-direction: row;
