@@ -6,7 +6,7 @@ const Experience = () => {
       workTime: "[4 Months]",
       workTitle: "Software Engineer Intern",
       summary:
-        "• At Pivot Integrated Technologies, I led the development of multiple features, improving client-facing functionality with JavaScript, React, Redux, AWS, and NodeJS. I also utilized Agile practices, enhancing team collaboration and sprint efficiency. Additionally, I conducted thorough code reviews to maintain code quality, resulting in a significant reduction in bug rates.",
+        "Led the development of multiple features, improving client-facing functionality with JavaScript, React, Redux, AWS, and NodeJS. I also utilized Agile practices, enhancing team collaboration and sprint efficiency. Additionally, I conducted thorough code reviews to maintain code quality, resulting in a significant reduction in bug rates.",
       skillsList: [
         "JavaScript",
         "ReactJS",
@@ -20,7 +20,7 @@ const Experience = () => {
       workTime: "[4 Months]",
       workTitle: "Software Engineer Intern",
       summary:
-        "• At Canvass AI, I collaborated with a team to design, document, and develop features, leading to improved platform functionality. I also contributed to enhancing UI and developing API endpoints in Python micro-services. Additionally, I assisted in the weekly release cycles.",
+        "Collaborated with a cross-disciplinary team to design, document, and develop features, leading to improved platform functionality. I also contributed to enhancing UI and developing API endpoints in Python micro-services. Additionally, I assisted in the weekly release cycles.",
       skillsList: [
         "JavaScript",
         "ReactJS",
@@ -33,9 +33,9 @@ const Experience = () => {
     {
       companyName: "SM Software Consulting",
       workTime: "[4 Months]",
-      workTitle: "Mobile Application Engineer Intern",
+      workTitle: "Mobile Software Engineer Intern",
       summary:
-        "• At SM Software Consulting, I initiated the transformation oof an employment app concept into a cross-platform application, improving the job search experience. Responsibilities included producing mobile screens using React-Native, structuring Redux logic, and ensuring data security with backend built in NodeJS. ",
+        "Initiated the transformation oof an employment app concept into a cross-platform application, improving the job search experience. Responsibilities included producing mobile screens using React-Native, structuring Redux logic, and ensuring data security with backend built in NodeJS. ",
       skillsList: ["JavaScript", "React-Native", "MSSQL", "NodeJS"],
     },
     {
@@ -43,7 +43,7 @@ const Experience = () => {
       workTime: "[4 Months]",
       workTitle: "Software Product Sprint",
       summary:
-        "• During Google's Software Product Sprint, I collaborated on building a crypto web app, implementing Google OAuth in Python, and utilizing Google Cloud for data management. ",
+        "Collaborated on building a crypto web app, implementing Google OAuth in Python, and utilizing Google Cloud for data management. ",
       skillsList: ["HTML/CSS", "JavaScript", "Google Cloud", "Java"],
     },
     {
@@ -51,7 +51,7 @@ const Experience = () => {
       workTime: "[1 Month]",
       workTitle: "Computer Science Summer Institute",
       summary:
-        "• As a selected participant in the competitive Google's Computer Science Summer Institute, I contributed to developing a resume builder, implementing Google OAuth in Python, and utilizing Google Cloud. ",
+        "As a selected participant in the competitive Google's Computer Science Summer Institute, I contributed to developing a resume builder, implementing Google OAuth in Python, and utilizing Google Cloud. ",
       skillsList: ["HTML/CSS", "JavaScript", "Python", "Google Cloud"],
     },
   ];
@@ -61,13 +61,14 @@ const Experience = () => {
       <h3 style={{ color: "#d0d8c2" }}>EXPERIENCE</h3>
       {Edata.map((job, index) => (
           <div className="experience_card" key={index}>
-            <span className="workTime">{`${job.workTime}`}</span>
+            <span className="workTime">{job.workTime}</span>
 
             <div className="experience_header">
               <p className="workTitle">
                 {`${job.companyName}  • `}
                 <i className="custyItalics">{job.workTitle}</i>
               </p>
+            <br/>
             </div>
 
             <div className="workInfo">
