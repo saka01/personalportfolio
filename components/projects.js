@@ -5,7 +5,7 @@ import styles from "@/styles/ProjectPage.module.css"; // Import the CSS module
 const ProjectPage = () => {
   const projects = [
     {
-      pname: "Canteenly",
+      pname: "Canteenly ↗",
       briefDesc:
         "A Web App to help HomeCooks with logistics and increase customer retention",
       skillsList: [
@@ -18,18 +18,17 @@ const ProjectPage = () => {
       link: "https://canteenly.vercel.app/",
     },
     {
-      pname: "Portfolio",
+      pname: "Portfolio ↗",
       briefDesc: "My Personal Portfolio",
       skillsList: ["TypeScript", "JavaScript", "ReactJS", "NextJS", "Vercel"],
       link: "https://www.moshoodsaka.com",
     },
     {
-      pname: "Lotide",
+      pname: "Lotide ↗",
       briefDesc: "A Mini Clone of the Lodash NPM Library",
       skillsList: ["JavaScript", "Chai", "Mocha"],
       link: "https://www.npmjs.com/package/@saka01/lotide",
     },
-    
   ];
   return (
     <div>

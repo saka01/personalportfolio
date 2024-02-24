@@ -19,11 +19,13 @@ const Certifications = ({ projectsData }) => {
         </div>
 
         <div className="certDetails">
-          <p>Next Generation Chief Technology Officer @University of Windsor</p>
-          <p>Issued Jan 2024</p>
+          <p>
+            Next Generation Chief Technology Officer @University of Windsor ↗
+          </p>
+          <p style={{ color: "darkgrey" }}>Issued Jan 2024</p>
         </div>
       </div>
-      <br/>
+      <br />
       <div className="certContainer">
         <div className="certImage">
           <Image
@@ -35,8 +37,8 @@ const Certifications = ({ projectsData }) => {
         </div>
 
         <div className="certDetails">
-          <p>Docker For Developers @LinkedIn</p>
-          <p>Issued Jan 2024</p>
+          <p>Docker For Developers @LinkedIn ↗</p>
+          <p style={{ color: "darkgrey" }}>Issued Jan 2024</p>
         </div>
       </div>
     </div>
