@@ -9,7 +9,7 @@ import Image from "next/image";
 const ProjectCard = ({ projectsData }) => {
 
   return (
-    <div className={styles.projectList}>
+    <div className={styles.projectContainer}>
       {projectsData.map((project, index) => (
         <Link key={index} href={project.link} legacyBehavior>
         <div
@@ -17,12 +17,12 @@ const ProjectCard = ({ projectsData }) => {
           className={styles.projectCard}
         >
           <div key={index} className={styles.projectHeader}>
-            <h2>{project.pname}</h2>
+            <h3>{project.pname}</h3>
           
           <p>{project.briefDesc}</p>
             <br />
-          <Skills skillsList={project.skillsList} />
           </div>
+          <Skills skillsList={project.skillsList} />
         </div>
         </Link>
       ))}

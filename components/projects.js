@@ -29,14 +29,15 @@ const ProjectPage = () => {
       skillsList: ["JavaScript", "Chai", "Mocha"],
       link: "https://www.npmjs.com/package/@saka01/lotide",
     },
+    
   ];
   return (
     <div>
-      <h3 style={{ color: "#d0d8c2" }}>PROJECTS</h3>
+      <br />
+      <br />
+      <h3 style={{ color: "#d0d8c2" }}>LATEST PROJECTS</h3>
 
-      <div className={styles.projectContainer}>
-        <ProjectCard projectsData={projects} />
-      </div>
+      <ProjectCard projectsData={projects} />
     </div>
   );
 };

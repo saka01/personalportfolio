@@ -51,15 +51,6 @@ background-color: #19334c;
     margin-right: 5em;
   }
 
-  .aboutme{
-    /* color: #e2e2e2; */
-    /* width: 90%; */
-  }
-
-  .aboutme:hover{
-    color: #d0d8c2;
-  }
-
   .home_info_block{
     display:flex;
     flex-direction: row;
@@ -163,7 +154,7 @@ height: 0.5px;
 .resumenavmain{
   display: flex;
   align-items: center;
-  background-color: #224c5b3e;
+  /* background-color: #224c5b3e; */
   border-radius: 60px;
   padding: 3em;
   margin-top: 1em;
