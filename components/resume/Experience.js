@@ -46,14 +46,14 @@ const Experience = () => {
         "Collaborated on building a crypto web app, implementing Google OAuth in Python, and utilizing Google Cloud for data management. ",
       skillsList: ["HTML/CSS", "JavaScript", "Google Cloud", "Java"],
     },
-    {
-      companyName: "Google",
-      workTime: "[1 Month]",
-      workTitle: "Computer Science Summer Institute",
-      summary:
-        "As a selected participant in the competitive Google's Computer Science Summer Institute, I contributed to developing a resume builder, implementing Google OAuth in Python, and utilizing Google Cloud. ",
-      skillsList: ["HTML/CSS", "JavaScript", "Python", "Google Cloud"],
-    },
+    // {
+    //   companyName: "Google",
+    //   workTime: "[1 Month]",
+    //   workTitle: "Computer Science Summer Institute",
+    //   summary:
+    //     "As a selected participant in the competitive Google's Computer Science Summer Institute, I contributed to developing a resume builder, implementing Google OAuth in Python, and utilizing Google Cloud. ",
+    //   skillsList: ["HTML/CSS", "JavaScript", "Python", "Google Cloud"],
+    // },
   ];
 
   return (

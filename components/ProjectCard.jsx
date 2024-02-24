@@ -19,7 +19,7 @@ const ProjectCard = ({ projectsData }) => {
           <div key={index} className={styles.projectHeader}>
             <h3>{project.pname}</h3>
           
-          <p>{project.briefDesc}</p>
+          <p style={{fontSize: "15px"}}>{project.briefDesc}</p>
             <br />
           </div>
           <Skills skillsList={project.skillsList} />

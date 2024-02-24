@@ -284,6 +284,24 @@ display: flex;
 
  
 }
+.certContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.certImage{
+  border: 1px solid grey;
+  padding: 0.5em;
+  margin-right: 1em;
+
+}
+
+.certDetails{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+}
 
 .experience_section{
   display: flex;
@@ -343,6 +361,11 @@ display: flex;
   flex-direction: column;
   margin-top: 3em;
 
+}
+
+.certContainer{
+  display: flex;
+  flex-direction: row;
 }
   .resumenavmain{
   display: flex;

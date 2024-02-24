@@ -7,6 +7,7 @@ import Experience from "@/components/resume/Experience";
 import Marquee from "react-fast-marquee";
 import Education from "@/components/resume/Education";
 import TechStack from "@/components/resume/TechStack";
+import Certifications from "@/components/resume/Certifications";
 
 export default function Home() {
   const languages = ["JavaScript", "Python", "Java", "C"];
@@ -18,6 +19,7 @@ export default function Home() {
       <ResumeNav />
       <Education />
       <Experience />
+      <Certifications />
       <ProjectPage />
       <TechStack />
     </section>

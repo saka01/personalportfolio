@@ -18,10 +18,14 @@
   flex-direction: column;
   /* border: 1.5px solid #d0d8c2; */
   border-radius: 40px;
-  padding: 1em;
+    border: 1px solid gray;
+
+  padding: 2em;
   background-color: #aaa27c4c;
   margin: 10px;
-  /* width: 35em; */
+    transition: border-color 0.3s ease; 
+
+  /* width: 35%; */
   /* height: 15em; */
   /* min-width: 300px;
   min-height: 200px; */
@@ -40,16 +44,9 @@
   color: white;
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1023px) {
 
   .projectCard {
-    border: 1px solid gray;
-    border-radius: 20px;
-    padding: 20px;
-    transition: border-color 0.3s ease; 
-    margin: 10px;
-    width: 30em;
-    height: auto;
   }
 
 }
