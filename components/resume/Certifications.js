@@ -8,10 +8,12 @@ const Certifications = ({ projectsData }) => {
       <br />
       <br />
       <h3 style={{ color: "#d0d8c2" }}>CERTIFICATES</h3>
+
+      <br />
       <div className="certContainer">
-        <div className="certImage">
+        <div style={{ backgroundColor: "white" }} className="certImage">
           <Image
-            src="/images/Icon=Linkedin.svg"
+            src="/images/Icon=Aws.svg"
             alt="LinkedIn"
             width={100}
             height={60}
@@ -19,17 +21,15 @@ const Certifications = ({ projectsData }) => {
         </div>
 
         <div className="certDetails">
-          <p>
-            Next Generation Chief Technology Officer @University of Windsor ↗
-          </p>
-          <p style={{ color: "darkgrey" }}>Issued Jan 2024</p>
+          <p>AWS Certified Developer - Associate @Amazon Web Services ↗</p>
+          <p style={{ color: "darkgrey" }}>[In Progess]</p>
         </div>
       </div>
       <br />
       <div className="certContainer">
         <div className="certImage">
           <Image
-            src="/images/Icon=Linkedin.svg"
+            src="/images/Icon=docker.svg"
             alt="LinkedIn"
             width={100}
             height={60}
@@ -38,7 +38,24 @@ const Certifications = ({ projectsData }) => {
 
         <div className="certDetails">
           <p>Docker For Developers @LinkedIn ↗</p>
-          <p style={{ color: "darkgrey" }}>Issued Jan 2024</p>
+
+          <p style={{ color: "darkgrey" }}>Issued Feb 2024</p>
+        </div>
+      </div>
+      <br />
+      <div className="certContainer">
+        <div className="certImage">
+          <Image
+            src="/images/Icon=nextgencto.png"
+            alt="LinkedIn"
+            width={100}
+            height={60}
+          />
+        </div>
+
+        <div className="certDetails">
+          <p>Next-Gen Chief Technology Officer @University of Windsor ↗</p>
+          <p style={{ color: "darkgrey" }}>Issued Nov 2022</p>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ import Marquee from "react-fast-marquee";
 import Education from "@/components/resume/Education";
 import TechStack from "@/components/resume/TechStack";
 import Certifications from "@/components/resume/Certifications";
-
+import Gallery from "@/components/Gallery";
 export default function Home() {
   const languages = ["JavaScript", "Python", "Java", "C"];
   const frameworks = ["ReactJS", "NextJS", "NodeJS", "Django", "Flask"];
@@ -21,7 +21,6 @@ export default function Home() {
       <Experience />
       <Certifications />
       <ProjectPage />
-      <TechStack />
     </section>
   );
 }

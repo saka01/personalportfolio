@@ -27,17 +27,7 @@ return (
           />
         </a>
       </div>
-      <div className="icon-container">
-        <a href="https://discord.com/users/1000k" target="_blank">
-          <Image
-            src="/images/Icon=Discord.svg"
-            alt="Discord"
-            className="icon"
-            width={size}
-            height={size}
-          />
-        </a>
-      </div>
+      
       <div className="icon-container">
         <a href="mailto:sakamoshood@ymail.com">
           <Image
