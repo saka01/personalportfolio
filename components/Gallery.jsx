@@ -1,9 +1,10 @@
 import { Carousel } from "flowbite-react";
 import Image from "next/image"; 
+import styles from "styles/Gallery.module.css";
 
 function Gallery() {
   return (
-    <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+    <div className={styles.gallery}>
       <Carousel>
         <div className="relative overflow-hidden rounded-lg">
           <Image

@@ -161,7 +161,7 @@ a {
   padding-left: 3em;
   padding-right: 3em;
   padding-bottom: 3em;
-  
+
   margin-top: 1em;
 }
 
@@ -179,7 +179,7 @@ a {
   display: flex;
   border-right: 1px solid #d0d8c2;
   justify-content: space-between; /* Horizontal alignment */
-    align-items: center;
+  align-items: center;
 
   margin: 1em;
   padding-right: 2.5em;
@@ -272,7 +272,9 @@ a {
   flex-direction: column;
   /* margin-left: 2em; */
 }
-
+.headerbadge {
+  display: none;
+}
 .experience_card {
   /* border: 0.5px solid #d0d8c2; */
   /* border-bottom: 1px solid black; */
@@ -337,7 +339,9 @@ a {
     justify-content: center;
     margin: 1em;
   }
-
+  .gallery {
+    display: none;
+  }
   .experience_section {
     display: flex;
     flex-direction: column;
@@ -354,7 +358,9 @@ a {
   .workTime {
     font-size: 11px;
   }
-
+  .headerbadge {
+    display: flex;
+  }
   .education_section {
     display: flex;
     flex-direction: column;
@@ -366,7 +372,7 @@ a {
 
     padding: 0em;
     border-radius: 40px;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     color: rgb(170, 170, 170);
     background-color: transparent;
   }
@@ -394,7 +400,7 @@ a {
   .based_in {
     display: none;
   }
-  .currently_status h2 {
+  .currently_status {
     display: none;
   }
   .currently_status p {
@@ -402,7 +408,7 @@ a {
   }
   .home_info_block {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     border: 0px;
     flex-direction: column-reverse;
