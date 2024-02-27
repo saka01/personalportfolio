@@ -27,7 +27,9 @@ const Education = () => {
 
   return (
     <div className="education_section">
-      <h3 style={{ color: "#d0d8c2" }}>EDUCATION</h3>
+      <h3 style={{ color: "#d0d8c2" }}>
+        <strong>EDUCATION</strong>
+      </h3>
       {Edata.map((job, index) => (
         <div className="experience_card" key={index}>
           <span className="workTime">{job.workTime}</span>
@@ -38,7 +40,6 @@ const Education = () => {
               <i className="custyItalics">{job.workTitle}</i>
             </p>
           </div>
-          <br />
 
           <Skills skillsList={job.skillsList} />
         </div>

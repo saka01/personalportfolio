@@ -7,7 +7,9 @@ const Certifications = ({ projectsData }) => {
     <div>
       <br />
       <br />
-      <h3 style={{ color: "#d0d8c2" }}>CERTIFICATES</h3>
+      <h3 style={{ color: "#d0d8c2" }}>
+        <strong>CERTIFICATES</strong>
+      </h3>
 
       <br />
       <div className="certContainer">
@@ -21,7 +23,7 @@ const Certifications = ({ projectsData }) => {
         </div>
 
         <div className="certDetails">
-          <p>AWS Certified Developer - Associate @Amazon Web Services ↗</p>
+          <p>AWS Certified Developer - Associate @Amazon Web Services </p>
           <p style={{ color: "darkgrey" }}>[In Progess]</p>
         </div>
       </div>
@@ -30,15 +32,15 @@ const Certifications = ({ projectsData }) => {
         <div className="certImage">
           <Image
             src="/images/Icon=docker.svg"
-            alt="LinkedIn"
-            width={100}
+            alt="Docker"
+            style={{ objectFit: "cover" }}
+            width={95}
             height={60}
           />
         </div>
 
         <div className="certDetails">
           <p>Docker For Developers @LinkedIn ↗</p>
-
           <p style={{ color: "darkgrey" }}>Issued Feb 2024</p>
         </div>
       </div>

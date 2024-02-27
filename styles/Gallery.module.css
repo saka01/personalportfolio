@@ -1,10 +1,29 @@
 
 
 .gallery{
+    width: 40%;
+    height: 370px ;
+  border: 1px solid #d0d8c2;
+  border-radius: 8px; /* adjust as needed */
+
+    /* height: 50%; */
 }
+
+.carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 28px; /* adjust as needed */
+  margin: 0 10px; /* add margin between items */
+}
+
 
 @media screen and (max-width: 1023px) {
 .gallery{
     display: none;
+  border: 0px solid #d0d8c2;
+    width: 80%;
+
 }
 }

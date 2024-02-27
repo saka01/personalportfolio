@@ -13,6 +13,7 @@ const Experience = () => {
         "NextJS",
         "Python",
         "Docker",
+        "AWS",
       ],
     },
     {
@@ -58,26 +59,27 @@ const Experience = () => {
 
   return (
     <div className="experience_section">
-      <h3 style={{ color: "#d0d8c2" }}>EXPERIENCE</h3>
+      <h3 style={{ color: "#d0d8c2" }}>
+        <strong>EXPERIENCE</strong>
+      </h3>
       {Edata.map((job, index) => (
-          <div className="experience_card" key={index}>
-            <span className="workTime">{job.workTime}</span>
+        <div className="experience_card" key={index}>
+          <span className="workTime">{job.workTime}</span>
 
-            <div className="experience_header">
-              <p className="workTitle">
-                {`${job.companyName}  • `}
-                <i className="custyItalics">{job.workTitle}</i>
-              </p>
-            <br/>
-            </div>
-
-            <div className="workInfo">
-              <span>{job.summary}</span>
-            </div>
+          <div className="experience_header">
+            <p className="workTitle">
+              {`${job.companyName}  • `}
+              <i className="custyItalics">{job.workTitle}</i>
+            </p>
             <br />
-
-            <Skills skillsList={job.skillsList} />
           </div>
+
+          <div className="workInfo">
+            <span>{job.summary}</span>
+          </div>
+
+          <Skills skillsList={job.skillsList} />
+        </div>
       ))}
     </div>
   );

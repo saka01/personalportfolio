@@ -20,7 +20,14 @@ const ProjectPage = () => {
     {
       pname: "Portfolio ↗",
       briefDesc: "My Personal Portfolio",
-      skillsList: ["TypeScript", "JavaScript", "ReactJS", "NextJS", "Vercel"],
+      skillsList: [
+        "TypeScript",
+        "JavaScript",
+        "ReactJS",
+        "NextJS",
+        "Vercel",
+        "TailwindCSS",
+      ],
       link: "https://www.moshoodsaka.com",
     },
     {
@@ -34,7 +41,9 @@ const ProjectPage = () => {
     <div>
       <br />
       <br />
-      <h3 style={{ color: "#d0d8c2" }}>LATEST PROJECTS</h3>
+      <h3 style={{ color: "#d0d8c2" }}>
+        <strong>RECENT PROJECTS</strong>
+      </h3>
 
       <ProjectCard projectsData={projects} />
     </div>

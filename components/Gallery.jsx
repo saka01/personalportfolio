@@ -1,63 +1,81 @@
 import { Carousel } from "flowbite-react";
-import Image from "next/image"; 
+import Image from "next/image";
 import styles from "styles/Gallery.module.css";
 
 function Gallery() {
   return (
-    <div className={styles.gallery}>
-      <Carousel>
-        <div className="relative overflow-hidden rounded-lg">
-          <Image
-            src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
-            alt="..."
-             // Use  prop for Next.js images
-            style={{ objectFit: "cover" }}
-            width={100}
-            height={60}
-          />
-        </div>
-        <div className="relative overflow-hidden rounded-lg">
-          <Image
-            src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-            alt="..."
-            
-            style={{ objectFit: "cover" }}
-            width={100}
-            height={60}
-          />
-        </div>
-        <div className="relative overflow-hidden rounded-lg">
-          <Image
-            src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-            alt="..."
-            
-            style={{ objectFit: "cover" }}
-            width={100}
-            height={60}
-          />
-        </div>
-        <div className="relative overflow-hidden rounded-lg">
-          <Image
-            src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-            alt="..."
-            
-            style={{ objectFit: "cover" }}
-            width={100}
-            height={60}
-          />
-        </div>
-        <div className="relative overflow-hidden rounded-lg">
-          <Image
-            src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-            alt="..."
-            
-            style={{ objectFit: "cover" }}
-            width={100}
-            height={60}
-          />
-        </div>
-      </Carousel>
-    </div>
+    <Carousel slide={true} pauseOnHover className={styles.gallery}>
+      <div
+        className={`relative flex items-center justify-center overflow-hidden rounded-lg`}
+        style={{ width: "100%", height: "100%" }}
+      >
+        <Image
+          src="/images/gallery/2.JPG"
+          alt="..."
+          style={{ objectFit: "cover" }}
+          fill
+        />
+      </div>
+      <div
+        className={`relative flex items-center justify-center overflow-hidden rounded-lg`}
+        style={{ width: "100%", height: "100%" }}
+      >
+        <Image
+          src="/images/gallery/7.jpg"
+          alt="..."
+          style={{ objectFit: "cover" }}
+          fill
+        />
+      </div>
+      <div
+        className={`relative flex items-center justify-center overflow-hidden rounded-lg`}
+        style={{ width: "100%", height: "100%" }}
+      >
+        <Image
+          src="/images/gallery/8.jpg"
+          alt="..."
+          style={{ objectFit: "cover" }}
+          fill
+        />
+      </div>
+      {/* <div
+        className={`relative flex items-center justify-center overflow-hidden rounded-lg`}
+        style={{ width: "100%", height: "100%" }}
+      >
+        <video
+          controls
+          muted
+          autoPlay
+          onLoadedMetadata={(e) => {
+            // Set the playback duration (in seconds)
+            const duration = 1000; // Example: 10 seconds
+
+            // Pause the video after the specified duration
+            setTimeout(() => {
+              e.target.pause();
+            }, duration * 1000);
+          }}
+          onContextMenu={(e) => e.preventDefault()}
+        >
+          <source src="/images/gallery/10.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div> */}
+      {/* <div
+        className={`relative flex items-center justify-center overflow-hidden rounded-lg`}
+        style={{ width: "100%", height: "100%" }}
+      >
+        <video
+          controls
+          muted
+          autoPlay
+          onContextMenu={(e) => e.preventDefault()}
+        >
+          <source src="/images/gallery/4.MOV" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div> */}
+    </Carousel>
   );
 }
 

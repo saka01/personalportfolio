@@ -167,6 +167,8 @@ a {
 
 .profile_text_container {
   /* margin-left: 1em; */
+  width: fit-content;
+  margin-right: 2em;
 }
 .profile_text_container h2 {
   font-size: 50px;
@@ -177,12 +179,11 @@ a {
 
 .profile_container {
   display: flex;
-  border-right: 1px solid #d0d8c2;
+  /* border-right: 1px solid #d0d8c2; */
   justify-content: space-between; /* Horizontal alignment */
   align-items: center;
 
   margin: 1em;
-  padding-right: 2.5em;
 }
 
 .profile_dashboard {
@@ -270,7 +271,7 @@ a {
 .workInfo {
   display: flex;
   flex-direction: column;
-  /* margin-left: 2em; */
+  margin-bottom: 0.5em;
 }
 .headerbadge {
   display: none;
@@ -299,6 +300,9 @@ a {
   border: 1px solid grey;
   padding: 0.5em;
   margin-right: 1em;
+  /* width: 30%; */
+  height: 50%;
+
 }
 
 .certDetails {
@@ -339,9 +343,7 @@ a {
     justify-content: center;
     margin: 1em;
   }
-  .gallery {
-    display: none;
-  }
+
   .experience_section {
     display: flex;
     flex-direction: column;
@@ -408,7 +410,7 @@ a {
   }
   .home_info_block {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     border: 0px;
     flex-direction: column-reverse;
@@ -441,7 +443,6 @@ a {
     width: fit-content;
     justify-content: space-between; /* Horizontal alignment */
     margin: 0em;
-    padding-right: 0em;
   }
 
   .resumewrapper {

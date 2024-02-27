@@ -22,7 +22,7 @@ const ResumeNav = () => {
             <TypeIt as={"p"}>
               Experienced Full-Stack Software Engineer 💻
             </TypeIt>
-            <br/>
+            <br />
             <p className="skills headerbadge">
               <i style={{ color: "#d0d8c2" }}>
                 ● Available For New Grad Opportunities
@@ -32,7 +32,9 @@ const ResumeNav = () => {
             <div className="aboutme">
               <br />
               <br />
-              <h3 style={{ color: "#d0d8c2" }}>ABOUT</h3>
+              <h3 style={{ color: "#d0d8c2" }}>
+                <strong>ABOUT</strong>
+              </h3>
               <br />
               <span>
                 Hello there! I&apos;m a recent graduate from the University of
