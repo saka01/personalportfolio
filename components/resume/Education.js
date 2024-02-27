@@ -26,7 +26,8 @@ const Education = () => {
   ];
 
   return (
-    <div className="education_section">
+    <div id="education" className="education_section">
+      <br/>
       <h3 style={{ color: "#d0d8c2" }}>
         <strong>EDUCATION</strong>
       </h3>

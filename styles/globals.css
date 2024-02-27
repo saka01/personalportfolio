@@ -167,8 +167,9 @@ a {
 
 .profile_text_container {
   /* margin-left: 1em; */
-  width: fit-content;
+  width: 50%;
   margin-right: 2em;
+  text-align: justify;
 }
 .profile_text_container h2 {
   font-size: 50px;
@@ -187,7 +188,7 @@ a {
 }
 
 .profile_dashboard {
-  border-right: 0.5px solid #d0d8c2;
+  /* border-right: 0.5px solid #d0d8c2; */
 }
 
 .resumewrapper {
@@ -440,9 +441,13 @@ a {
     padding-bottom: 1em;
     border-right: 0px;
     border-bottom: 0;
-    width: fit-content;
+    width: 100%;
     justify-content: space-between; /* Horizontal alignment */
     margin: 0em;
+  }
+  .profile_text_container{
+    width: 100%;
+    margin-right: 0em;
   }
 
   .resumewrapper {

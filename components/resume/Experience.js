@@ -58,7 +58,8 @@ const Experience = () => {
   ];
 
   return (
-    <div className="experience_section">
+    <div id="experience" className="experience_section">
+      <br/>
       <h3 style={{ color: "#d0d8c2" }}>
         <strong>EXPERIENCE</strong>
       </h3>

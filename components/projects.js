@@ -38,7 +38,7 @@ const ProjectPage = () => {
     },
   ];
   return (
-    <div>
+    <div id="projects">
       <br />
       <br />
       <h3 style={{ color: "#d0d8c2" }}>
