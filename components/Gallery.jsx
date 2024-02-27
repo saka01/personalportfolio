@@ -21,7 +21,7 @@ function Gallery() {
         style={{ width: "100%", height: "100%" }}
       >
         <Image
-          src="/images/gallery/7.jpg"
+          src="/images/gallery/7.JPG"
           alt="..."
           style={{ objectFit: "cover" }}
           fill
@@ -32,7 +32,7 @@ function Gallery() {
         style={{ width: "100%", height: "100%" }}
       >
         <Image
-          src="/images/gallery/8.jpg"
+          src="/images/gallery/8.JPG"
           alt="..."
           style={{ objectFit: "cover" }}
           fill
