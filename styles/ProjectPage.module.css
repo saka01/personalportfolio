@@ -51,6 +51,7 @@
 @media screen and (max-width: 1023px) {
 
   .projectCard {
+    width: 100%;
   }
 
   .projectHeader p{

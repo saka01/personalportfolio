@@ -21,8 +21,8 @@ const ProjectCard = ({ projectsData }) => {
           
           <p>{project.briefDesc}</p>
             <br />
-          </div>
           <Skills skillsList={project.skillsList} />
+          </div>
         </div>
         </Link>
       ))}
