@@ -28,7 +28,7 @@ const ProjectPage = () => {
         "Vercel",
         "TailwindCSS",
       ],
-      link: "https://www.moshoodsaka.com",
+      link: "https://www.moshoodsaka.com/#about",
     },
     {
       pname: "Lotide ↗",

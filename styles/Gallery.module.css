@@ -21,8 +21,7 @@
 @media screen and (max-width: 1023px) {
 .gallery{
     display: none;
-  border: 0px solid #d0d8c2;
+    border: 0px solid #d0d8c2;
     width: 80%;
-
 }
 }
