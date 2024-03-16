@@ -4,19 +4,12 @@ import Marquee from "react-fast-marquee";
 import styles from "@/styles/ProjectPage.module.css"; // Import the CSS module
 const ProjectPage = () => {
   const projects = [
-    // {
-    //   pname: "Canteenly ↗",
-    //   briefDesc:
-    //     "A Web App to help HomeCooks with logistics and increase customer retention",
-    //   skillsList: [
-    //     "JavaScript",
-    //     "NodeJS",
-    //     "React",
-    //     "TailwindCSS",
-    //     "Google Firebase",
-    //   ],
-    //   link: "https://canteenly.vercel.app/",
-    // },
+    {
+      pname: "BeingCov ✪",
+      briefDesc: "[In Development]",
+      skillsList: ["JavaScript", "React", "TailwindCSS"],
+      link: "#",
+    },
     {
       pname: "Portfolio ↗",
       briefDesc: "My Personal Portfolio",
