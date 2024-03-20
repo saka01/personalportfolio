@@ -1,5 +1,12 @@
 version: 0.2
 
+env:
+  parameter-store:
+    AWS_DEFAULT_REGION: "us-east-2"
+    AWS_ACCOUNT_ID: "654654626737"
+    IMAGE_REPO_NAME: "personalportfolio"
+    IMAGE_TAG: "latest"
+
 phases:
   pre_build:
     commands:
