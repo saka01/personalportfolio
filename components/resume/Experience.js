@@ -13,7 +13,7 @@ const Experience = () => {
         "NextJS",
         "Python",
         "Docker",
-        "AWS",
+        "AWS CodePipelin",
       ],
     },
     {

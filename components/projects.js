@@ -6,7 +6,7 @@ const ProjectPage = () => {
   const projects = [
     {
       pname: "BeingCov ✪",
-      briefDesc: "[In Development]",
+      briefDesc: "[In-Development]",
       skillsList: ["JavaScript", "React", "TailwindCSS"],
       link: "#",
     },
