@@ -6,7 +6,6 @@ env:
   parameter-store:
     AWS_DEFAULT_REGION: "PP_AWS_REGION"
     AWS_ACCOUNT_ID: "PP_AWS_ACCID"
-    IMAGE_REPO_NAME: "PP_IMAGE_REPONAME"
 
 phases:
   pre_build:
@@ -18,15 +17,13 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t $IMAGE_REPO_NAME:$(date +%Y-%m-%d_%H-%M-%S) .
-      - docker tag $IMAGE_REPO_NAME:$(date +%Y-%m-%d_%H-%M-%S) $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$(date +%Y-%m-%d_%H-%M-%S)
-      - docker tag $IMAGE_REPO_NAME:$(date +%Y-%m-%d_%H-%M-%S) $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:latest
+      - docker build -t personalportfolio:latest .
+      - docker tag personalportfolio:latest $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/personalportfolio:latest
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$(date +%Y-%m-%d_%H-%M-%S)
-      - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:latest
+      - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/personalportfolio:latest
 
 artifacts:
   files:
