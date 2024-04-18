@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    IMAGE_TAG: "latest"
+    IMAGE_TAG: "v0.2"
   parameter-store:
     AWS_DEFAULT_REGION: "PP_AWS_REGION"
     AWS_ACCOUNT_ID: "PP_AWS_ACCID"
@@ -17,13 +17,13 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t personalportfolio:latest .
-      - docker tag personalportfolio:latest $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/personalportfolio:latest
+      - docker build -t personalportfolio:$IMAGE_TAG .
+      - docker tag personalportfolio:$IMAGE_TAG $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/personalportfolio:$IMAGE_TAG
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/personalportfolio:latest
+      - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/personalportfolio:$IMAGE_TAG
 
 artifacts:
   files:
