@@ -22,37 +22,22 @@ const ResumeNav = () => {
             <h2>
               Moshood <strong>Saka</strong>
             </h2>
-            <TypeIt as={"p"}>
+            <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
               Software Engineering [90%] + Cyber Security [10%] 💻
             </TypeIt>
             <br />
             <p className="skills headerbadge">
-              <i style={{ color: "#d0d8c2" }}>
-                ● SWE Intern @ Hutsy Financial
-              </i>
+              <i style={{ color: "#d0d8c2" }}>● SWE Intern @ Hutsy Financial</i>
             </p>
 
             <div className="aboutme">
-              <br />
-              <br />
-              <h3 style={{ color: "#d0d8c2" }}>
-                <strong>ABOUT</strong>
-              </h3>
-              <br />
               <span>
-                I&apos;m an innovative Software Engineer with experience in
+                I&apos;m a Software Engineer with experience in
                 building production-level applications. My passion lies in
                 taking an holistic approach to tackle problems with creative
-                solutions + a keen interest in cybersecurity, with 3
-                projects related to cyber security.
+                solutions + a keen interest in cybersecurity, with 3 projects
+                related to cyber security.
               </span>
-              {/* <br />
-              <br /> */}
-              {/* <span>
-                My ambition is to join a forward-thinking company where
-                innovation, collaboration, and a commitment to continuous
-                learning and growth are at the heart of its culture.
-              </span> */}
             </div>
           </div>
           {/* <Gallery /> */}
