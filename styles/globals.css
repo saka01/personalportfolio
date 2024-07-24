@@ -167,9 +167,9 @@ a {
 
 .profile_text_container {
   /* margin-left: 1em; */
-  width: 50%;
-  margin-right: 2em;
-  text-align: justify;
+  /* width: 50%; */
+  /* margin-right: 2em; */
+  /* text-align: justify; */
 }
 .profile_text_container h2 {
   font-size: 50px;

@@ -19,6 +19,7 @@ const ResumeNav = () => {
                 <strong>Hi, my name is</strong>
               </h3>
             </div>
+            <br/>
             <h2>
               Moshood <strong>Saka</strong>
             </h2>
@@ -31,6 +32,7 @@ const ResumeNav = () => {
             </p>
 
             <div className="aboutme">
+              <br/>
               <span>
                 I&apos;m a Software Engineer with experience in
                 building production-level applications. My passion lies in
