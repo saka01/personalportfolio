@@ -19,6 +19,7 @@ const Certifications = ({ projectsData }) => {
               alt="AWS"
               width={100}
               height={80}
+              loading="lazy"
             />
           </div>
 
@@ -41,6 +42,7 @@ const Certifications = ({ projectsData }) => {
               style={{ objectFit: "cover" }}
               width={95}
               height={60}
+              loading="lazy"
             />
           </div>
 
@@ -62,13 +64,12 @@ const Certifications = ({ projectsData }) => {
               alt="LinkedIn"
               width={100}
               height={60}
+              loading="lazy"
             />
           </div>
 
           <div className="certDetails">
-            <p>
-              Next-Gen Chief Technology Officer @University of Windsor ↗
-            </p>
+            <p>Next-Gen Chief Technology Officer @University of Windsor ↗</p>
             <p style={{ color: "darkgrey" }}>Issued Nov 2022</p>
           </div>
         </div>

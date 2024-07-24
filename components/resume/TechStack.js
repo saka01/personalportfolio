@@ -24,7 +24,7 @@ const TechStack = () => {
         <strong>TECHNOLOGIES</strong>
       </h3>
       <div
-        style={{ display: "flex", flexDirection: "row", width: "100%" }}
+        // style={{ display: "flex", flexDirection: "row", width: "100%" }}
         className="experience_card"
       >
         <div className="marqueetext">
