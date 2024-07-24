@@ -6,7 +6,7 @@ return (
   <div className="navwrapper">
     <div className="social-media-icons">
       <div className="icon-container">
-        <a href="https://www.linkedin.com/in/sakam" target="_blank">
+        <a href="http://www.linkedin.com/in/sakam/" target="_blank">
           <Image
             src="/images/Icon=Linkedin.svg"
             alt="LinkedIn"
@@ -17,7 +17,7 @@ return (
         </a>
       </div>
       <div className="icon-container">
-        <a href="https://github.com/saka01" target="_blank">
+        <a href="http://github.com/saka01/" target="_blank">
           <Image
             src="/images/Icon=Github.svg"
             alt="GitHub"

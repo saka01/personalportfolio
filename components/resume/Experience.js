@@ -2,18 +2,18 @@ import Skills from "./Skills";
 const Experience = () => {
   const Edata = [
     {
-      companyName: "Pivot Integrated Technologies",
-      workTime: "[8 Months]",
-      workTitle: "Software Engineer[Contract]",
+      companyName: "Hutsy Financial",
+      workTime: "[4 Months]",
+      workTitle: "Software Engineer Intern",
       summary:
         "Led the development of multiple features, improving client-facing functionality with JavaScript, React, Redux, AWS, and NodeJS. I also utilized Agile practices, enhancing team collaboration and sprint efficiency. Additionally, I conducted thorough code reviews to maintain code quality, resulting in a significant reduction in bug rates.",
       skillsList: [
+        "TypeScript",
         "JavaScript",
         "ReactJS",
-        "NextJS",
-        "Python",
-        "Docker",
-        "AWS CodePipelin",
+        "React Native",
+        "Expo",
+        "NodeJS",
       ],
     },
     {
@@ -75,9 +75,9 @@ const Experience = () => {
             <br />
           </div>
 
-          <div className="workInfo">
+          {/* <div className="workInfo">
             <span>{job.summary}</span>
-          </div>
+          </div> */}
 
           <Skills skillsList={job.skillsList} />
         </div>

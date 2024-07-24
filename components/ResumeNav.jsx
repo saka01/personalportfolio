@@ -14,19 +14,18 @@ const ResumeNav = () => {
         <div className="profile_container">
           <div className="profile_text_container">
             <div id="about" className={styles.logo}>
-              <DevName text="MS._" />
+              {/* <DevName text="Hi, my name is" /> */}
+              <h3 style={{ color: "#d0d8c2" }}>
+                <strong>Hi, my name is</strong>
+              </h3>
             </div>
             <h2>
               Moshood <strong>Saka</strong>
             </h2>
-            <TypeIt as={"p"}>
-              Experienced Full-Stack Software Engineer 💻
-            </TypeIt>
+            <TypeIt as={"p"}>Software Engineering + Cyber Security 💻</TypeIt>
             <br />
             <p className="skills headerbadge">
-              <i style={{ color: "#d0d8c2" }}>
-                ● Available For New Grad Opportunities
-              </i>
+              <i style={{ color: "#d0d8c2" }}>● SWE Intern @ Hutsy Financial</i>
             </p>
 
             <div className="aboutme">
@@ -37,21 +36,22 @@ const ResumeNav = () => {
               </h3>
               <br />
               <span>
-                Hello there! I&apos;m a recent graduate from the University of
-                Windsor, where I earned my Bachelor&apos;s in Computer Science.
-                As a passionate builder, I thrive on the challenges and
-                creativity that coding offers.
+                I&apos;m an innovative Software Engineer with experience in
+                building production-level applications. My passion lies in
+                taking an holistic approach to tackle problems with creative
+                solutions + a keen interest in cybersecurity, with 3 impactful
+                projects in the field.
               </span>
-              <br />
-              <br />
-              <span>
+              {/* <br />
+              <br /> */}
+              {/* <span>
                 My ambition is to join a forward-thinking company where
                 innovation, collaboration, and a commitment to continuous
                 learning and growth are at the heart of its culture.
-              </span>
+              </span> */}
             </div>
           </div>
-          <Gallery />
+          {/* <Gallery /> */}
         </div>
 
         <hr className="customHr" />
@@ -65,9 +65,7 @@ const ResumeNav = () => {
             <br />
             <h2>⚡ Currently</h2>
             <p className="skills">
-              <i style={{ color: "#d0d8c2" }}>
-                ● Available For New Grad Opportunities
-              </i>
+              <i style={{ color: "#d0d8c2" }}>● SWE Intern @ Hutsy Financial</i>
             </p>
           </div>
           <div className="socials_block">

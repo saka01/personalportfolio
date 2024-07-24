@@ -21,7 +21,7 @@ const ProjectPage = () => {
         "Vercel",
         "TailwindCSS",
       ],
-      link: "https://www.moshoodsaka.com/#about",
+      link: "http://www.moshoodsaka.com/#about/",
     },
     {
       pname: "Partyer ↗",
@@ -35,7 +35,7 @@ const ProjectPage = () => {
         "express",
         "PostgreSQL",
       ],
-      link: "https://github.com/saka01/Partyer?tab=readme-ov-file#partyer",
+      link: "http://github.com/saka01/Partyer?tab=readme-ov-file#partyer/",
     },
     {
       pname: "TinyApp ↗",
@@ -49,7 +49,7 @@ const ProjectPage = () => {
         "express",
         "cookie-session",
       ],
-      link: "https://github.com/saka01/tinyApp?tab=readme-ov-file#tinyapp-project",
+      link: "http://github.com/saka01/tinyApp?tab=readme-ov-file#tinyapp-project/",
     },
     {
       pname: "BAT$ Finance ↗",
@@ -65,13 +65,13 @@ const ProjectPage = () => {
         "Google Cloud",
         "APIs",
       ],
-      link: "https://github.com/saka01/Spring2021-Team11?tab=readme-ov-file#spring-2021-team-11",
+      link: "http://github.com/saka01/Spring2021-Team11?tab=readme-ov-file#spring-2021-team-11/",
     },
     {
       pname: "Lotide ↗",
       briefDesc: "A Mini Clone of the Lodash NPM Library",
       skillsList: ["JavaScript", "Chai", "Mocha"],
-      link: "https://www.npmjs.com/package/@saka01/lotide",
+      link: "http://www.npmjs.com/package/@saka01/lotide/",
     },
   ];
   return (
