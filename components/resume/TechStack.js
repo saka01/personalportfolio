@@ -18,8 +18,8 @@ const TechStack = () => {
 
   return (
     <>
-    <br/>
-    <br/>
+      <br />
+      <br />
       <h3 style={{ color: "#d0d8c2" }}>
         <strong>TECHNOLOGIES</strong>
       </h3>
@@ -32,17 +32,16 @@ const TechStack = () => {
             {techstack.map((data, index) => (
               <div key={index}>
                 <Image
-                  // key={index}
                   src={`/images/Icon=${data}.svg`}
                   alt="Logo"
                   width={100}
                   height={100}
+                  loading="lazy"
                 />
                 <span
                   style={{
                     marginRight: "10em",
                   }}
-                  // key={index}
                   className="skills"
                 >
                   {data}
