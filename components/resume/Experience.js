@@ -6,7 +6,7 @@ const Experience = () => {
       workTime: "[4 Months]",
       workTitle: "Software Engineer Intern",
       summary:
-        "Led the development of multiple features, improving client-facing functionality with JavaScript, React, Redux, AWS, and NodeJS. I also utilized Agile practices, enhancing team collaboration and sprint efficiency. Additionally, I conducted thorough code reviews to maintain code quality, resulting in a significant reduction in bug rates.",
+        "Streamlined and automated app deployment to App Stores, cutting team workload by 4 hours weekly. I enhanced the user experience for 5000+ users by fixing critical bugs and creating high-quality components. Increased code quality and team productivity through active code reviews and feedback, and reduced the API error rate by refining backend SDKs and APIs.",
       skillsList: [
         "TypeScript",
         "JavaScript",
@@ -75,9 +75,9 @@ const Experience = () => {
             <br />
           </div>
 
-          {/* <div className="workInfo">
+          <div className="workInfo">
             <span>{job.summary}</span>
-          </div> */}
+          </div>
 
           <Skills skillsList={job.skillsList} />
         </div>
