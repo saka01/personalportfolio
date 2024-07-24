@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <section className="home">
       <ResumeNav />
-      {/* <TechStack/> */}
+      <TechStack/>
       <Education />
       <Experience />
       <Certifications />

@@ -24,7 +24,7 @@ const TechStack = () => {
         <strong>TECHNOLOGIES</strong>
       </h3>
       <div
-        // style={{ display: "flex", flexDirection: "row", width: "100%" }}
+        style={{ width: "100%" }}
         className="experience_card"
       >
         <div className="marqueetext">
@@ -34,8 +34,8 @@ const TechStack = () => {
                 <Image
                   src={`/images/Icon=${data}.svg`}
                   alt="Logo"
-                  width={100}
-                  height={100}
+                  width={80}
+                  height={80}
                   loading="lazy"
                 />
                 <span
