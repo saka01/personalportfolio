@@ -11,21 +11,23 @@ const EmailPrompt = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    // Mock API call to save email
     try {
-      await fetch("/api/saveEmail", {
+      const response = await fetch("/api/sendSms", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email })
+        body: JSON.stringify({ email }),
       });
-      
-      toast.success("Email submitted successfully!");
-    } catch (error) {
-      toast.error("Failed to submit email.");
-    }
 
+      if (response.ok) {
+        toast.success("I'll send you my resume shortly!");
+      } else {
+        toast.error("Failed to make request.");
+      }
+    } catch (error) {
+      toast.error("Failed to send resume request.");
+    }
     // Close the modal after submission
     setShowModal(false);
     setEmail(""); // Reset email input

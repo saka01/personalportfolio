@@ -22,6 +22,7 @@
     "react-fast-marquee": "^1.6.2",
     "react-toastify": "^10.0.5",
     "styled-components": "^6.0.9",
+    "twilio": "^5.2.2",
     "typeit-react": "^2.7.1"
   },
   "devDependencies": {
