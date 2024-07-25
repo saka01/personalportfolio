@@ -221,6 +221,7 @@ a {
   font-size: 10px;
   font-weight: 500;
   width: max-content;
+  text-wrap: nowrap;
 }
 
 .tech_stack  {

@@ -19,30 +19,74 @@ const ResumeNav = () => {
                 <strong>Hi, my name is</strong>
               </h3>
             </div>
-            <br/>
-            <h2>
-              Moshood <strong>Saka</strong>
-            </h2>
-            <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
-              Software Engineering [90%] + Cyber Security [10%] 💻
-            </TypeIt>
+            <br />
+
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+              }}
+            >
+              <div
+                style={{
+                  borderRadius: "50%",
+                  overflow: "hidden",
+                  marginRight: "1em",
+                  maxHeight: "6em",
+                  maxWidth: "6em",
+                  minHeight: "2em",
+                  minWidth: "2em",
+                }}
+              >
+                <Image
+                  src="/images/profile_pic2.jpg"
+                  alt="Moshood Saka"
+                  width={380}
+                  height={380}
+                  loading="lazy"
+                  style={{
+                    marginRight: "1em",
+                    objectFit: "cover",
+                    transform: "scale(1.7)  translateY(15%)",
+                  }}
+                />
+              </div>
+              <div>
+                <h2>
+                  Moshood <strong>Saka</strong>
+                </h2>
+                <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
+                  Software Engineering [90%] + Cyber Security [10%] 💻
+                </TypeIt>
+              </div>
+            </div>
             <br />
             <p className="skills headerbadge">
               <i style={{ color: "#d0d8c2" }}>● SWE Intern @ Hutsy Financial</i>
             </p>
 
             <div className="aboutme">
-              <br/>
+              <br />
               <span>
-                I&apos;m a Software Engineer with experience in
-                building full stack production-level software. My passion lies in
-                taking an holistic approach to tackle problems with creative
-                solutions + a keen interest in cybersecurity, with 3 projects
-                related to cyber security.
+                I&apos;m a Software Engineer with experience in building full
+                stack{" "}
+                <strong style={{ color: "#d0d8c2" }}>production-level</strong>{" "}
+                software. My passion lies in taking an holistic approach to
+                tackle problems with creative solutions + a keen interest in
+                cybersecurity, with 3 projects related to cyber security.
               </span>
             </div>
           </div>
           {/* <Gallery /> */}
+          {/* <Image
+            src="/images/profile_pic2.jpg"
+            alt="Moshood Saka"
+            className="icon"
+            width={100}
+            height={100}
+            loading="lazy"
+          /> */}
         </div>
 
         <hr className="customHr" />

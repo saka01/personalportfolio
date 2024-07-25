@@ -27,6 +27,17 @@ function Gallery() {
           fill
         />
       </div>
+      <div
+        className={`relative flex items-center justify-center overflow-hidden rounded-lg`}
+        style={{ width: "100%", height: "100%" }}
+      >
+        <Image
+          src="/images/profile_pic2.jpg"
+          alt="..."
+          style={{ objectFit: "cover" }}
+          fill
+        />
+      </div>
       {/* <div
         className={`relative flex items-center justify-center overflow-hidden rounded-lg`}
         style={{ width: "100%", height: "100%" }}
