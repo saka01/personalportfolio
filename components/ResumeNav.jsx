@@ -37,6 +37,7 @@ const ResumeNav = () => {
                   maxWidth: "6em",
                   minHeight: "2em",
                   minWidth: "2em",
+                  flexShrink: 0,
                 }}
               >
                 <Image
