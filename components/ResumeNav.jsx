@@ -35,7 +35,7 @@ const ResumeNav = () => {
               <br/>
               <span>
                 I&apos;m a Software Engineer with experience in
-                building production-level applications. My passion lies in
+                building full stack production-level software. My passion lies in
                 taking an holistic approach to tackle problems with creative
                 solutions + a keen interest in cybersecurity, with 3 projects
                 related to cyber security.

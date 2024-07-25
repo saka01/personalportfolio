@@ -3,17 +3,18 @@ import Marquee from "react-fast-marquee";
 
 const TechStack = () => {
   const techstack = [
-    "Html",
-    "js",
-    "next",
-    "nodejs",
-    "python",
-    "typescript",
-    "react",
-    "mulli",
-    "typescript",
-    "react",
-    "mulli",
+    "HTML/CSS",
+    "JavaScript (4Yrs)",
+    "TypeScript (2Yrs)",
+    "NodeJS",
+    "Python",
+    "Typescript",
+    "React (3Yrs)",
+    "React-Native",
+    "Pandas",
+    "Storybook",
+    "Synk",
+    "Java",
   ];
 
   return (
@@ -23,27 +24,19 @@ const TechStack = () => {
       <h3 style={{ color: "#d0d8c2" }}>
         <strong>TECHNOLOGIES</strong>
       </h3>
-      <div
-        style={{ width: "100%" }}
-        className="experience_card"
-      >
+      <div style={{ width: "100%" }} className="experience_card">
         <div className="marqueetext">
           <Marquee autoFill pauseOnHover>
             {techstack.map((data, index) => (
-              <div key={index}>
-                <Image
-                  src={`/images/Icon=${data}.svg`}
-                  alt="Logo"
-                  width={80}
-                  height={80}
-                  loading="lazy"
-                />
-                <span
-                  style={{
-                    marginRight: "10em",
-                  }}
-                  className="skills"
-                >
+              <div
+                key={index}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  marginRight: "1em",
+                }}
+              >
+                <span style={{ color: "#d0d8c2" }} className="tech_stack">
                   {data}
                 </span>
               </div>
