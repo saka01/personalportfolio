@@ -13,6 +13,7 @@ return (
             className="icon"
             width={size}
             height={size}
+            loading="lazy"
           />
         </a>
       </div>
@@ -24,10 +25,11 @@ return (
             className="icon"
             width={size}
             height={size}
+            loading="lazy"
           />
         </a>
       </div>
-      
+
       <div className="icon-container">
         <a href="mailto:sakamoshood@ymail.com">
           <Image
@@ -36,6 +38,7 @@ return (
             className="icon"
             width={size}
             height={size}
+            loading="lazy"
           />
         </a>
       </div>
