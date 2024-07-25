@@ -1,25 +1,45 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 
 const EmailPrompt = () => {
   const [showModal, setShowModal] = useState(false);
   const [email, setEmail] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle email submission logic (e.g., send email, display resume link, etc.)
-    console.log("Email submitted:", email);
+    
+    // Mock API call to save email
+    try {
+      await fetch("/api/saveEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ email })
+      });
+      
+      toast.success("Email submitted successfully!");
+    } catch (error) {
+      toast.error("Failed to submit email.");
+    }
+
     // Close the modal after submission
     setShowModal(false);
+    setEmail(""); // Reset email input
   };
 
   return (
     <>
-     
-        <div className="icon-container" style={{cursor: "pointer"}} onClick={() => setShowModal(true)}>
-          <p>View My Resume</p>
-        </div>
-
+      <div
+        className="icon-container"
+        style={{ cursor: "pointer" }}
+        onClick={() => setShowModal(true)}
+      >
+        <p>View My Resume</p>
+      </div>
 
       {showModal && (
         <div style={styles.overlay}>
@@ -28,7 +48,7 @@ const EmailPrompt = () => {
 
             <form onSubmit={handleSubmit}>
               <label style={styles.label}>
-               Please Enter your email to receive my detailed resume:
+                Please Enter your email to receive my detailed resume:
               </label>
               <input
                 type="email"
@@ -51,6 +71,7 @@ const EmailPrompt = () => {
           </div>
         </div>
       )}
+      <ToastContainer />
     </>
   );
 };

@@ -20,6 +20,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-fast-marquee": "^1.6.2",
+    "react-toastify": "^10.0.5",
     "styled-components": "^6.0.9",
     "typeit-react": "^2.7.1"
   },
