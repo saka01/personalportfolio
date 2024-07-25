@@ -76,10 +76,13 @@ a {
 }
 
 .icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   border: 1px solid #aaa27c4c;
   margin-right: 1em;
-  padding: 1em 1.3em 0.5em 1.3em;
+  padding: 1em 1.3em 1em 1.3em;
   border-radius: 15px;
 }
 
