@@ -15,10 +15,9 @@ const Links = () => {
       <br />
       <br />
       <div className="marqueetext">
-        <Marquee autoFill>
-          L I N K S &nbsp; L I N K S &nbsp; L I N K S &nbsp; L I N K S &nbsp;
-        </Marquee>
+        <Marquee autoFill>L I N K S &nbsp; &nbsp; &nbsp;</Marquee>
       </div>
+      <br />
       <br />
       <br />
 
@@ -35,6 +34,7 @@ const Links = () => {
           }}
         /> */}
         <h4 style={{ fontSize: "20px" }}>SWE Intern @ Hutsy Financial</h4>
+        <br />
       </div>
 
       <div className="linktree-socials">
