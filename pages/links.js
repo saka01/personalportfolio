@@ -12,13 +12,11 @@ const Links = () => {
 
   return (
     <div className="linktree">
-      <br />
       <div className="marqueetext">
         <Marquee autoFill>L I N K S &nbsp; &nbsp; &nbsp;</Marquee>
       </div>
       <br />
       <br />
-
       <div className="linktree-profile">
         {/* <Image
           id="profile_pic"
