@@ -42,7 +42,7 @@ const Education = () => {
         <div className="experience_card" key={index}>
           <span className="workTime">{job.workTime}</span>
 
-          <div className="experience_header">
+          <div style={{marginBottom: "0.5em"}} className="experience_header">
             <p className="workTitle">
               {`${job.companyName}  • `}
               <i className="custyItalics">{job.workTitle}</i>
