@@ -1,14 +1,19 @@
 import Link from "next/link";
-import Marquee from "react-fast-marquee";
 import Image from "next/image";
+import TypeIt from "typeit-react";
 
 const Certifications = ({ projectsData }) => {
   return (
     <div>
       <br />
       <br />
-      <h3 style={{ color: "#d0d8c2" }}>
-        <strong>CERTIFICATES</strong>
+      <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains mono" }}>
+        <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
+          Picked these along the way!
+        </TypeIt>
+      </h3>
+      <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
+        <strong>My Certificates.</strong>
       </h3>
 
       <Link href="#" legacyBehavior>

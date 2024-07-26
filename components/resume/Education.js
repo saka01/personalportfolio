@@ -1,4 +1,5 @@
 import Skills from "./Skills";
+import TypeIt from "typeit-react";
 const Education = () => {
   const Edata = [
     {
@@ -28,9 +29,14 @@ const Education = () => {
 
   return (
     <div id="education" className="education_section">
-      <br/>
-      <h3 style={{ color: "#d0d8c2" }}>
-        <strong>EDUCATION</strong>
+      <br />
+      <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains mono" }}>
+        <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
+          Structured Learnings...
+        </TypeIt>
+      </h3>
+      <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
+        <strong>My Education.</strong>
       </h3>
       {Edata.map((job, index) => (
         <div className="experience_card" key={index}>

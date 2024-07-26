@@ -1,4 +1,6 @@
 import Skills from "./Skills";
+import TypeIt from "typeit-react";
+
 const Experience = () => {
   const Edata = [
     {
@@ -34,7 +36,7 @@ const Experience = () => {
     {
       companyName: "SM Software Consulting",
       workTime: "[4 Months]",
-      workTitle: "Mobile Software Engineer Intern",
+      workTitle: "Software Engineer Intern",
       summary:
         "Initiated the transformation oof an employment app concept into a cross-platform application, improving the job search experience. Responsibilities included producing mobile screens using React-Native, structuring Redux logic, and ensuring data security with backend built in NodeJS. ",
       skillsList: ["JavaScript", "React-Native", "MSSQL", "NodeJS"],
@@ -59,9 +61,15 @@ const Experience = () => {
 
   return (
     <div id="experience" className="experience_section">
-      <br/>
-      <h3 style={{ color: "#d0d8c2" }}>
-        <strong>EXPERIENCE</strong>
+      <br />
+
+      <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains mono" }}>
+        <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
+          What have I done?
+        </TypeIt>
+      </h3>
+      <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
+        <strong>My Experience.</strong>
       </h3>
       {Edata.map((job, index) => (
         <div className="experience_card" key={index}>

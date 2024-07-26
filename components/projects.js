@@ -1,7 +1,7 @@
 import ProjectCard from "@/components/ProjectCard";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
-import styles from "@/styles/ProjectPage.module.css"; // Import the CSS module
+import TypeIt from "typeit-react";
 const ProjectPage = () => {
   const projects = [
     {
@@ -78,8 +78,13 @@ const ProjectPage = () => {
     <div id="projects">
       <br />
       <br />
-      <h3 style={{ color: "#d0d8c2" }}>
-        <strong>RECENT PROJECTS</strong>
+      <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains mono" }}>
+        <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
+          Enjoyed these projects too!
+        </TypeIt>
+      </h3>
+      <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
+        <strong>My Projects.</strong>
       </h3>
 
       <ProjectCard projectsData={projects} />

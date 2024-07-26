@@ -2,6 +2,7 @@ import "styles/globals.css";
 import RootLayout from "./layout";
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
+import AnimatedCursor from "react-animated-cursor";
 
 
 function MyApp({ Component, pageProps }) {
@@ -15,6 +16,22 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content="My new title" key="title" />
       </Head>
+      <AnimatedCursor
+        hasBlendMode={true}
+        color="#fff"
+        innerSize={8}
+        outerSize={65}
+        innerScale={1}
+        outerScale={2}
+        outerAlpha={0}
+        innerStyle={{
+          backgroundColor: "#d0d8c2",
+        }}
+        outerStyle={{
+          backgroundColor: "#1A334C",
+          mixBlendMode: "exclusion",
+        }}
+      />
       <Component {...pageProps} />
       <Analytics />
     </>

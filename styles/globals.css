@@ -49,8 +49,8 @@ body {
   align-items: flex-start; /* Vertical alignment */
   justify-content: center;
   margin-bottom: 5em;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 15em;
+  margin-right: 15em;
 }
 
 .home_info_block {
