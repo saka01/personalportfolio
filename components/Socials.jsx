@@ -20,19 +20,6 @@ return (
           />
         </a>
       </div>
-      
-      {/* <div className="icon-container">
-        <a href="http://github.com/saka01/" target="_blank">
-          <Image
-            src="/images/Icon=Github.svg"
-            alt="GitHub"
-            className="icon"
-            width={size}
-            height={size}
-            loading="lazy"
-          />
-        </a>
-      </div> */}
 
       <div className="icon-container">
         <a href="mailto:sakamoshood@ymail.com">

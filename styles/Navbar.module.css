@@ -32,8 +32,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1em;
   gap: 1em;
+  padding: 1em;
+  top: 0;
+  position: sticky;
+  background-color: #19334c;
 }
 .logo {
   color: #d0d8c2;

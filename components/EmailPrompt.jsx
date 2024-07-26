@@ -40,7 +40,7 @@ const EmailPrompt = () => {
         style={{ cursor: "pointer" }}
         onClick={() => setShowModal(true)}
       >
-        <p>View My Resume</p>
+        <a>View My Resume</a>
       </div>
 
       {showModal && (
@@ -123,7 +123,7 @@ const styles = {
     backgroundColor: "green",
     color: "#fff",
     fontSize: "16px",
-    cursor: "pointer",
+    // cursor: "pointer",
     margin: "0 5px",
   },
   cancelButton: {

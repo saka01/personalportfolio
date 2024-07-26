@@ -1,6 +1,9 @@
 import Image from "next/image";
 import DevName from "./DevName";
 import styles from "styles/Navbar.module.css";
+import projectcardstyles from "../styles/ProjectPage.module.css";
+import Link from "next/link";
+
 import Socials from "./Socials";
 import TypeIt from "typeit-react";
 import Gallery from "./Gallery";
@@ -79,15 +82,28 @@ const ResumeNav = () => {
               </span>
             </div>
           </div>
-          {/* <Gallery /> */}
-          {/* <Image
-            src="/images/profile_pic2.jpg"
-            alt="Moshood Saka"
-            className="icon"
-            width={100}
-            height={100}
-            loading="lazy"
-          /> */}
+            {/* <Gallery /> */}
+          {/* <div style={{display: "flex", flexDirection: "column", justifyItems: "center", alignItems: "center"}}>
+            <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains mono" }}>
+                Latest Project 🚀
+            </h3>
+      
+            <div className={projectcardstyles.projectContainer}>
+              <Link href={"http://www.moshoodsaka.com"} legacyBehavior>
+                <div
+                  style={{ width: "20em" }}
+                  className={projectcardstyles.projectCard}
+                >
+                  <div className={projectcardstyles.projectHeader}>
+                    <h3>Hiiii</h3>
+
+                    <p>new proj</p>
+                    <br />
+                  </div>
+                </div>
+              </Link>
+            </div>
+          </div> */}
         </div>
 
         <hr className="customHr" />
