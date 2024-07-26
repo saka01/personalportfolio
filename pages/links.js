@@ -33,7 +33,10 @@ const Links = () => {
             border: "3px solid darkgrey",
           }}
         /> */}
-        <h4 style={{ fontSize: "20px" }}>SWE Intern @ Hutsy Financial</h4>
+        <h4 style={{ fontSize: "30px" }}>
+          Moshood <strong>Saka</strong>
+        </h4>
+        <h5 style={{ fontSize: "10px" }}>SWEI ◦ Internet Things ◦ Personal Growth</h5>
         <br />
       </div>
 
