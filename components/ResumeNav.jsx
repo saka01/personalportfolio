@@ -61,7 +61,7 @@ const ResumeNav = () => {
                   Moshood <strong>Saka</strong>
                 </h2>
                 <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
-                  Software Engineering [90%] + Cyber Security [10%] 💻
+                  Software Engineering + Cyber Security 💻
                 </TypeIt>
               </div>
             </div>
