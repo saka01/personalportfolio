@@ -13,11 +13,9 @@ const Links = () => {
   return (
     <div className="linktree">
       <br />
-      <br />
       <div className="marqueetext">
         <Marquee autoFill>L I N K S &nbsp; &nbsp; &nbsp;</Marquee>
       </div>
-      <br />
       <br />
       <br />
 
