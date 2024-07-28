@@ -3,7 +3,6 @@ import DevName from "./DevName";
 import styles from "styles/Navbar.module.css";
 import projectcardstyles from "../styles/ProjectPage.module.css";
 import Link from "next/link";
-import BlurIn from "@/components/magicui/blur-in";
 import BlurFade from "@/components/magicui/blur-fade";
 
 

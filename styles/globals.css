@@ -265,6 +265,8 @@ a {
   display: flex;
   flex-direction: row;
   color: #e7f0d8;
+  flex-wrap: wrap;
+  gap: 0.25em;
 }
 
 .experience_header {

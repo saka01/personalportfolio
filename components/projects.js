@@ -11,7 +11,7 @@ const ProjectPage = () => {
       link: "#",
     },
     {
-      pname: "Portfolio ↗",
+      pname: "Portfolio",
       briefDesc: "My Personal Portfolio",
       skillsList: [
         "TypeScript",
@@ -24,7 +24,7 @@ const ProjectPage = () => {
       link: "http://www.moshoodsaka.com/#about/",
     },
     {
-      pname: "Partyer ↗",
+      pname: "Partyer",
       briefDesc: "A web app to host events",
       skillsList: [
         "HTML",
@@ -38,7 +38,7 @@ const ProjectPage = () => {
       link: "http://github.com/saka01/Partyer?tab=readme-ov-file#partyer/",
     },
     {
-      pname: "TinyApp ↗",
+      pname: "TinyApp",
       briefDesc: "A mini clone of TinyURL",
       skillsList: [
         "HTML",
@@ -52,9 +52,8 @@ const ProjectPage = () => {
       link: "http://github.com/saka01/tinyApp?tab=readme-ov-file#tinyapp-project/",
     },
     {
-      pname: "BAT$ Finance ↗",
-      briefDesc:
-        "A Crypto Web App that displays real-time Top 100 crypto currencies and 1 year history",
+      pname: "BAT$ Finance",
+      briefDesc: "Real-time Top 100 crypto currencies and history",
       skillsList: [
         "HTML/CSS",
         "Java",
@@ -68,7 +67,7 @@ const ProjectPage = () => {
       link: "http://github.com/saka01/Spring2021-Team11?tab=readme-ov-file#spring-2021-team-11/",
     },
     {
-      pname: "Lotide ↗",
+      pname: "Lotide",
       briefDesc: "A Mini Clone of the Lodash NPM Library",
       skillsList: ["JavaScript", "Chai", "Mocha"],
       link: "http://www.npmjs.com/package/@saka01/lotide/",
