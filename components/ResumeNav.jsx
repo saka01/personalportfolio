@@ -3,6 +3,8 @@ import DevName from "./DevName";
 import styles from "styles/Navbar.module.css";
 import projectcardstyles from "../styles/ProjectPage.module.css";
 import Link from "next/link";
+import BlurIn from "@/components/magicui/blur-in";
+import BlurFade from "@/components/magicui/blur-fade";
 
 
 import Socials from "./Socials";
@@ -23,48 +25,50 @@ const ResumeNav = () => {
             </h3>
           </div>
           <br />
-
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              alignItems: "center",
-            }}
-          >
+          <BlurFade inView>
             <div
               style={{
-                borderRadius: "50%",
-                overflow: "hidden",
-                marginRight: "1em",
-                maxHeight: "6em",
-                maxWidth: "6em",
-                minHeight: "2em",
-                minWidth: "2em",
-                flexShrink: 0,
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
               }}
             >
-              <Image
-                src="/images/profile_pic2.jpg"
-                alt="Moshood Saka"
-                width={380}
-                height={380}
-                loading="lazy"
+              <div
                 style={{
+                  borderRadius: "50%",
+                  overflow: "hidden",
                   marginRight: "1em",
-                  objectFit: "cover",
-                  transform: "scale(1.7)  translateY(15%)",
+                  maxHeight: "6em",
+                  maxWidth: "6em",
+                  minHeight: "2em",
+                  minWidth: "2em",
+                  flexShrink: 0,
                 }}
-              />
+              >
+                <Image
+                  src="/images/profile_pic2.jpg"
+                  alt="Moshood Saka"
+                  width={380}
+                  height={380}
+                  loading="lazy"
+                  style={{
+                    marginRight: "1em",
+                    objectFit: "cover",
+                    transform: "scale(1.7)  translateY(15%)",
+                  }}
+                />
+              </div>
+
+              <div>
+                <h2>
+                  Moshood <strong>Saka ✪</strong>
+                </h2>
+                <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
+                  Software Engineering ＋ Cyber Security
+                </TypeIt>
+              </div>
             </div>
-            <div>
-              <h2>
-                Moshood <strong>Saka</strong>
-              </h2>
-              <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
-                Software Engineering + Cyber Security 💻
-              </TypeIt>
-            </div>
-          </div>
+          </BlurFade>
           <br />
           <p className="skills headerbadge">
             <i style={{ color: "#d0d8c2" }}>● SWE Intern @ Hutsy Financial</i>
@@ -104,7 +108,6 @@ const ResumeNav = () => {
               </Link>
             </div>
           </div> */}
-          
         </div>
 
         <hr className="customHr" />

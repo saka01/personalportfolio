@@ -9,6 +9,8 @@ import Education from "@/components/resume/Education";
 import TechStack from "@/components/resume/TechStack";
 import Certifications from "@/components/resume/Certifications";
 import Gallery from "@/components/Gallery";
+import BlurFade from "@/components/magicui/blur-fade";
+
 export default function Home() {
   const languages = ["JavaScript", "Python", "Java", "C"];
   const frameworks = ["ReactJS", "NextJS", "NodeJS", "Django", "Flask"];
@@ -16,8 +18,8 @@ export default function Home() {
 
   return (
     <section className="home">
-      <ResumeNav />
-      <TechStack/>
+        <ResumeNav />
+      <TechStack />
       <Experience />
       <Education />
       <Certifications />

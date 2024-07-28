@@ -33,12 +33,6 @@ const Education = () => {
       <br />
       <br />
       <br />
-
-      <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains mono" }}>
-        <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
-          Structured Learnings...
-        </TypeIt>
-      </h3>
       <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
         <strong>🎓My Education.</strong>
       </h3>

@@ -69,11 +69,7 @@ const slugs = [
           }}
         >
           <div style={{ width: "100%" }}>
-            <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains Mono" }}>
-              <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
-                I crank projects with these
-              </TypeIt>
-            </h3>
+      
             <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
               <strong>⚙️ Tools.</strong>
             </h3>
