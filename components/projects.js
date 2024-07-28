@@ -84,7 +84,7 @@ const ProjectPage = () => {
       <div>
         <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains mono" }}>
           <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
-            Enjoyed these projects too!
+            Check out my latest work
           </TypeIt>
         </h3>
         <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>

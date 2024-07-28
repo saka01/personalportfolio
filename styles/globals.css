@@ -86,6 +86,12 @@ a {
   border-radius: 15px;
 }
 
+.techstack_container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em;
+}
+
 .relative{
   position: relative;
   width: 100%;
