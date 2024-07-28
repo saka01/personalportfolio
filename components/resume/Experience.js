@@ -62,20 +62,24 @@ const Experience = () => {
   return (
     <div id="experience" className="experience_section">
       <br />
-
+      <br />
+      <br />
+      <br />
       <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains mono" }}>
         <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
           What have I done?
         </TypeIt>
       </h3>
       <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
-        <strong>My Experience.</strong>
+        <strong>👨🏾‍💻My Experience.</strong>
       </h3>
+      <br />
+
       {Edata.map((job, index) => (
         <div className="experience_card" key={index}>
           <span className="workTime">{job.workTime}</span>
 
-          <div style={{marginBottom: "0.5em"}} className="experience_header">
+          <div style={{ marginBottom: "0.5em" }} className="experience_header">
             <p className="workTitle">
               {`${job.companyName}  • `}
               <i className="custyItalics">{job.workTitle}</i>

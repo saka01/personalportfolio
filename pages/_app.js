@@ -3,6 +3,7 @@ import RootLayout from "./layout";
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
 import AnimatedCursor from "react-animated-cursor";
+import Particles from "@/components/magicui/particles";
 
 
 function MyApp({ Component, pageProps }) {
@@ -32,7 +33,7 @@ function MyApp({ Component, pageProps }) {
           mixBlendMode: "exclusion",
         }}
       />
-      <Component {...pageProps} />
+        <Component {...pageProps} />
       <Analytics />
     </>
   );

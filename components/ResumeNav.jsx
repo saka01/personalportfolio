@@ -4,6 +4,7 @@ import styles from "styles/Navbar.module.css";
 import projectcardstyles from "../styles/ProjectPage.module.css";
 import Link from "next/link";
 
+
 import Socials from "./Socials";
 import TypeIt from "typeit-react";
 import Gallery from "./Gallery";
@@ -14,75 +15,74 @@ const ResumeNav = () => {
   return (
     <div className="resumenavmain">
       <div className="profile_dashboard">
-        <div className="profile_container">
-          <div className="profile_text_container">
-            <div id="about" className={styles.logo}>
-              {/* <DevName text="Hi, my name is" /> */}
-              <h3 style={{ color: "#d0d8c2" }}>
-                <strong>Hi, my name is</strong>
-              </h3>
-            </div>
-            <br />
+        <div className="profile_text_container">
+          <div id="about" className={styles.logo}>
+            {/* <DevName text="Hi, my name is" /> */}
+            <h3 style={{ color: "#d0d8c2" }}>
+              <strong>Hi, my name is</strong>
+            </h3>
+          </div>
+          <br />
 
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+            }}
+          >
             <div
               style={{
-                display: "flex",
-                flexDirection: "row",
-                alignItems: "center",
+                borderRadius: "50%",
+                overflow: "hidden",
+                marginRight: "1em",
+                maxHeight: "6em",
+                maxWidth: "6em",
+                minHeight: "2em",
+                minWidth: "2em",
+                flexShrink: 0,
               }}
             >
-              <div
+              <Image
+                src="/images/profile_pic2.jpg"
+                alt="Moshood Saka"
+                width={380}
+                height={380}
+                loading="lazy"
                 style={{
-                  borderRadius: "50%",
-                  overflow: "hidden",
                   marginRight: "1em",
-                  maxHeight: "6em",
-                  maxWidth: "6em",
-                  minHeight: "2em",
-                  minWidth: "2em",
-                  flexShrink: 0,
+                  objectFit: "cover",
+                  transform: "scale(1.7)  translateY(15%)",
                 }}
-              >
-                <Image
-                  src="/images/profile_pic2.jpg"
-                  alt="Moshood Saka"
-                  width={380}
-                  height={380}
-                  loading="lazy"
-                  style={{
-                    marginRight: "1em",
-                    objectFit: "cover",
-                    transform: "scale(1.7)  translateY(15%)",
-                  }}
-                />
-              </div>
-              <div>
-                <h2>
-                  Moshood <strong>Saka</strong>
-                </h2>
-                <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
-                  Software Engineering + Cyber Security 💻
-                </TypeIt>
-              </div>
+              />
             </div>
-            <br />
-            <p className="skills headerbadge">
-              <i style={{ color: "#d0d8c2" }}>● SWE Intern @ Hutsy Financial</i>
-            </p>
-
-            <div className="aboutme">
-              <br />
-              <span>
-                I&apos;m a Software Engineer with experience in building full
-                stack{" "}
-                <strong style={{ color: "#d0d8c2" }}>production-level</strong>{" "}
-                software. My passion lies in taking an holistic approach to
-                tackle problems with creative solutions + a keen interest in
-                cybersecurity, with 3 projects related to cyber security.
-              </span>
+            <div>
+              <h2>
+                Moshood <strong>Saka</strong>
+              </h2>
+              <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
+                Software Engineering + Cyber Security 💻
+              </TypeIt>
             </div>
           </div>
-            {/* <Gallery /> */}
+          <br />
+          <p className="skills headerbadge">
+            <i style={{ color: "#d0d8c2" }}>● SWE Intern @ Hutsy Financial</i>
+          </p>
+
+          <div className="aboutme">
+            <br />
+            <span>
+              I&apos;m a Software Engineer with experience in building full
+              stack{" "}
+              <strong style={{ color: "#d0d8c2" }}>production-level</strong>{" "}
+              software. My passion lies in taking an holistic approach to tackle
+              problems with creative solutions + a keen interest in
+              cybersecurity, with 3 projects related to cyber security.
+            </span>
+          </div>
+          <br />
+          {/* <Gallery /> */}
           {/* <div style={{display: "flex", flexDirection: "column", justifyItems: "center", alignItems: "center"}}>
             <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains mono" }}>
                 Latest Project 🚀
@@ -104,6 +104,7 @@ const ResumeNav = () => {
               </Link>
             </div>
           </div> */}
+          
         </div>
 
         <hr className="customHr" />

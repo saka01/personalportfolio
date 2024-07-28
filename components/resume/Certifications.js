@@ -7,14 +7,19 @@ const Certifications = ({ projectsData }) => {
     <div>
       <br />
       <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains mono" }}>
         <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
           Picked these along the way!
         </TypeIt>
       </h3>
       <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
-        <strong>My Certificates.</strong>
+        <strong>📄My Certificates.</strong>
       </h3>
+      <br />
 
       <Link href="#" legacyBehavior>
         <div className="certContainer">

@@ -78,14 +78,20 @@ const ProjectPage = () => {
     <div id="projects">
       <br />
       <br />
-      <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains mono" }}>
-        <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
-          Enjoyed these projects too!
-        </TypeIt>
-      </h3>
-      <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
-        <strong>My Projects.</strong>
-      </h3>
+      <br />
+      <br />
+      <br />
+      <div>
+        <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains mono" }}>
+          <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
+            Enjoyed these projects too!
+          </TypeIt>
+        </h3>
+        <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
+          <strong>👷🏾‍♂️My Projects.</strong>
+        </h3>
+      </div>
+      <br />
 
       <ProjectCard projectsData={projects} />
     </div>
