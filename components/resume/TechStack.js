@@ -69,35 +69,36 @@ const slugs = [
           }}
         >
           <div style={{ width: "100%" }}>
-      
             <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
-              <strong>⚙️ Tools.</strong>
+              <strong>⚙️ My Stack &#123;</strong>
+            </h3>
+            <div
+              style={{ width: "100%", padding: "1em" }}
+              className="techstack_container"
+            >
+              {techstack.map((data, index) => (
+                <div
+                  key={index}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    marginRight: "0.1em",
+                  }}
+                >
+                  <span style={{ color: "#d0d8c2" }} className="tech_stack">
+                    {data}
+                  </span>
+                </div>
+              ))}
+            </div>
+            <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
+              <strong>&#125;;</strong>
             </h3>
           </div>
           <div className="relative flex h-40 w-70 max-w-xs items-center justify-center overflow-hidden rounded-lg border bg-background">
             <IconCloud iconSlugs={slugs} />
           </div>
         </div>
-      </div>
-      <br />
-      <div
-        style={{ width: "100%", padding: "1em"}}
-        className="techstack_container"
-      >
-        {techstack.map((data, index) => (
-          <div
-            key={index}
-            style={{
-              display: "flex",
-              alignItems: "center",
-              marginRight: "0.1em",
-            }}
-          >
-            <span style={{ color: "#d0d8c2" }} className="tech_stack">
-              {data}
-            </span>
-          </div>
-        ))}
       </div>
     </>
   );

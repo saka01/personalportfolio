@@ -65,8 +65,8 @@ const Experience = () => {
       <br />
       <br />
       <br />
-      <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
-        <strong>👨🏾‍💻My Experience.</strong>
+      <h3 style={{ textAlign: "right", color: "#d0d8c2", fontSize: "3em" }}>
+        <strong>&#125; Experience👨🏾‍💻</strong>
       </h3>
       <br />
 
@@ -88,6 +88,9 @@ const Experience = () => {
           <Skills skillsList={job.skillsList} />
         </div>
       ))}
+      <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
+        <strong>;&#123;</strong>
+      </h3>
     </div>
   );
 };

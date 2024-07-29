@@ -34,7 +34,7 @@ const Education = () => {
       <br />
       <br />
       <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
-        <strong>🎓My Education.</strong>
+        <strong>🎓 Education &#123;</strong>
       </h3>
       {Edata.map((job, index) => (
         <div className="experience_card" key={index}>
@@ -50,6 +50,9 @@ const Education = () => {
           <Skills skillsList={job.skillsList} />
         </div>
       ))}
+      <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
+        <strong>&#125;;</strong>
+      </h3>
     </div>
   );
 };

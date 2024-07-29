@@ -87,12 +87,15 @@ const ProjectPage = () => {
           </TypeIt>
         </h3>
         <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
-          <strong>👷🏾‍♂️My Projects.</strong>
+          <strong>👷🏾‍♂️Projects &#123;</strong>
         </h3>
       </div>
       <br />
 
       <ProjectCard projectsData={projects} />
+      <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
+        <strong>&#125;;</strong>
+      </h3>
     </div>
   );
 };

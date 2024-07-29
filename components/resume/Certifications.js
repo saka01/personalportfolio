@@ -4,20 +4,29 @@ import TypeIt from "typeit-react";
 
 const Certifications = ({ projectsData }) => {
   return (
-    <div>
+    <div style={{display: "flex",
+    flexDirection: "column",
+    width: "100%"}}>
       <br />
       <br />
       <br />
       <br />
       <br />
       <br />
-      <h3 style={{ color: "#d0d8c2", fontFamily: "JetBrains mono" }}>
+      <h3
+        style={{
+          textAlign: "right",
+          color: "#d0d8c2",
+          fontFamily: "JetBrains mono",
+          width: "100%"
+        }}
+      >
         <TypeIt as={"p"} style={{ color: "#d0d8c2" }}>
           Picked these along the way!
         </TypeIt>
       </h3>
-      <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
-        <strong>📄My Certificates.</strong>
+      <h3 style={{ textAlign: "right", color: "#d0d8c2", fontSize: "3em" }}>
+        <strong>&#125; Certificates 📄</strong>
       </h3>
       <br />
 
@@ -84,6 +93,9 @@ const Certifications = ({ projectsData }) => {
           </div>
         </div>
       </Link>
+      <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
+        <strong>;&#123;</strong>
+      </h3>
     </div>
   );
 };
