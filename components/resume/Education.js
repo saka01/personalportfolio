@@ -51,7 +51,7 @@ const Education = () => {
         </div>
       ))}
       <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
-        <strong>&#125;;</strong>
+        <strong>&#125;</strong>
       </h3>
     </div>
   );

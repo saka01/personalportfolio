@@ -89,7 +89,7 @@ const Experience = () => {
         </div>
       ))}
       <h3 style={{ color: "#d0d8c2", fontSize: "3em" }}>
-        <strong>;&#123;</strong>
+        <strong>&#123;</strong>
       </h3>
     </div>
   );
