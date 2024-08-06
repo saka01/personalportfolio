@@ -3,6 +3,7 @@ import RootLayout from "./layout";
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
 import AnimatedCursor from "react-animated-cursor";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 
 function MyApp({ Component, pageProps }) {
@@ -34,6 +35,7 @@ function MyApp({ Component, pageProps }) {
       />
         <Component {...pageProps} />
       <Analytics mode={'production'} />
+      <SpeedInsights />
     </>
   );
 }
