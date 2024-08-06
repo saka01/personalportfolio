@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }) {
         }}
       />
         <Component {...pageProps} />
-      <Analytics />
+      <Analytics mode={'production'} />
     </>
   );
 }
