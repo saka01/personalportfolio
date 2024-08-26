@@ -6,8 +6,9 @@ import Footer from "@/components/Footer";
 
 const Links = () => {
   const linksData = [
-    { title: "Netacquires", link: "http://www.netacquires.com/" },
-    // { title: "Portfolio", link: "https://www.moshoodsaka.com" },
+    { title: "ImmiLang", link: "http://www.immilang.com/" },
+    { title: "Portfolio", link: "https://www.moshoodsaka.com" },
+    // { title: "Netacquires", link: "http://www.netacquires.com/" },
   ];
 
   return (
