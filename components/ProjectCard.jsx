@@ -20,11 +20,11 @@ const ProjectCard = ({ projectsData }) => {
           </div>
 
           <br />
-          <span style={{ fontSize: "0.5em" }}>
+          {/* <span style={{ fontSize: "0.5em" }}>
             I&apos;m still refractoring this
             <strong style={{ color: "#d0d8c2" }}> part 🔨</strong>{" "}
-          </span>
-          <br />
+          </span> */}
+          {/* <br /> */}
 
           <div style={{ display: "flex", flexWrap: "wrap" }}>
             <Skills skillsList={project.skillsList} />

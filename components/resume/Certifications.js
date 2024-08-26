@@ -29,7 +29,7 @@ const Certifications = ({ projectsData }) => {
         <strong>&#125; Certificates 📄</strong>
       </h3>
       <br />
-
+{/* 
       <Link href="#" legacyBehavior>
         <div className="certContainer">
           <div style={{ backgroundColor: "white" }} className="certImage">
@@ -47,7 +47,7 @@ const Certifications = ({ projectsData }) => {
             <p style={{ color: "darkgrey" }}>[In Progess]</p>
           </div>
         </div>
-      </Link>
+      </Link> */}
       <br />
       <Link
         href="https://www.linkedin.com/learning/certificates/39884f0a7703a2a06d1fc769b48cf84a4973029e5f07b0af7669b7cf55316787"

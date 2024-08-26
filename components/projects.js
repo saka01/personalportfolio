@@ -5,10 +5,10 @@ import TypeIt from "typeit-react";
 const ProjectPage = () => {
   const projects = [
     {
-      pname: "BeingCov ✪",
+      pname: "ImmiLang ✪",
       briefDesc: "[In-Development]",
       skillsList: ["JavaScript", "React", "TailwindCSS"],
-      link: "#",
+      link: "https://www.immilang.com",
     },
     {
       pname: "Portfolio",
