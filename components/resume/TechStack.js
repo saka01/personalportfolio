@@ -6,12 +6,15 @@ import TypeIt from "typeit-react";
 const TechStack = () => {
   const techstack = [
     "HTML/CSS",
-    "JavaScript (4Yrs)",
-    "TypeScript (2Yrs)",
+    "NextJS",
+    "TailwindCSS",
+    "Supabase",
+    "JavaScript",
+    "TypeScript",
     "NodeJS",
     "Python",
     "Typescript",
-    "React (3Yrs)",
+    "React",
     "React-Native",
     "Pandas",
     "Storybook",
@@ -19,7 +22,10 @@ const TechStack = () => {
     "Java",
     "firebase",
     "github",
-    "gitlab",
+    "Docker",
+    "Git",
+    "Jira",
+    "Figma",
   ];
 const slugs = [
   "typescript",

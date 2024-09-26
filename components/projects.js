@@ -6,8 +6,8 @@ const ProjectPage = () => {
   const projects = [
     {
       pname: "ImmiLang ✪",
-      briefDesc: "[In-Development]",
-      skillsList: ["JavaScript", "React", "TailwindCSS"],
+      briefDesc: "Directory of Immigration Consultants",
+      skillsList: ["NextJS", "JavaScript", "React", "TailwindCSS"],
       link: "https://www.immilang.com",
     },
     {
